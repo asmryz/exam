@@ -1,0 +1,6007 @@
+[
+  {
+    "qid": 1,
+    "question": "Spring MVC can work / integrate with Spring Boot",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 2,
+    "question": "Spring Boot is a totally separate technology",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 3,
+    "question": "We can use main() method in Spring MVC also",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 4,
+    "question": "Spring Boot can run without Tomcat Server",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 5,
+    "question": "We can use Tomcat Server explicitly with Spring boot",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 6,
+    "question": "Spring Boot application can work without main() method",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 7,
+    "question": "We can only define main() method in Controller only",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 8,
+    "question": " _______________ is a convenience annotation that is equivalent to declaring @Configuration, @EnableAutoConfiguration and @ComponentScan.",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 9,
+    "question": "@SpringBootApplication annotation applies on the class with main() method only",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 10,
+    "question": "___________ annotation indicates that a class declares one or more @Bean methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 11,
+    "question": "____________ annotation configures component scanning directives for use with @Configuration classes. Provides support parallel with Spring XML's <context:component-scan> element. ",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 12,
+    "question": "@ComponentScan and @PackageToScan are same annotations",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 13,
+    "question": "@ComponentScan and @PackageToScan annotations are for Spring configurations",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 14,
+    "question": "JdbcTemplate is a wrapper od JDBC in Spring MVC",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 15,
+    "question": "_________ object is used to provide connectivity on JdbcTemplate",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 16,
+    "question": "List<Map<String, Object>> and List<Student> both produce same result in JSTL",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 17,
+    "question": "_____________ implementation that converts a row into a new instance of the specified mapped target Bean class. ",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 18,
+    "question": "We can override RowMapper class for customization",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 19,
+    "question": "Bean validation is part of _____________",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 20,
+    "question": "There is no difference between ArrayList and HashMap",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 21,
+    "question": "List<Student> students = new ArrayList<Student> is a wrong statement",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 22,
+    "question": "List is an interface to an ArrayList class",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 23,
+    "question": "@Transactional annotation add support of transaction control in given class",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 24,
+    "question": "@Transactional annotation is an hibernate annotation",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 25,
+    "question": "@Transactional annotation can be used in method also",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 26,
+    "question": "JPA stands for Java Persistance API",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 27,
+    "question": "JPA is an interface whereas Hibernate is the implementation",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 28,
+    "question": "JPA can work without hibernate",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 29,
+    "question": "Spring Boot application read all its bean configuration from a file call ____________",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 30,
+    "question": "in Spring Boot application .jar files can run JSP files",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 31,
+    "question": "_____________ annotation defines a class whose instances are stored as an intrinsic part of an owning entity and share the identity of the entity.",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 32,
+    "question": "_____________ annotation applied to a persistent field or property of an entity class or mapped superclass to denote a composite primary key that is an embeddable class. The embeddable class must be annotated as @Embeddable",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 33,
+    "question": "strategy=GenerationType.____________ Indicates that the persistence provider must assign primary keys for the entity using a database column (for MySQL database).",
+    "answer": 3,
+    "testid": 1
+  },
+  {
+    "qid": 34,
+    "question": "strategy=GenerationType.____________ Indicates that the persistence provider must assign primary keys for the entity using a database object (for ORACLE database).",
+    "answer": 4,
+    "testid": 1
+  },
+  {
+    "qid": 35,
+    "question": "strategy=GenerationType.____________ Indicates that the persistence provider must assign primary keys for the entity using an underlying database table to ensure uniqueness (for Sybase database).",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 36,
+    "question": "strategy=GenerationType.____________ Indicates that the persistence provider should pick an appropriate strategy for the particular vendor appropriate database.",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 37,
+    "question": "Following code is a configuration for : <br />spring.mvc.view.prefix=/WEB-INF/views/<br />spring.mvc.view.suffix=.jsp",
+    "answer": 2,
+    "testid": 1
+  },
+  {
+    "qid": 38,
+    "question": "Following code is a configuration for : <br />spring.datasource.url = jdbc:mysql://localhost:3311/labsch<br />spring.datasource.driver-class-name=com.mysql.jdbc.Driver<br />spring.datasource.username = root<br />spring.datasource.password = root",
+    "answer": 3,
+    "testid": 1
+  },
+  {
+    "qid": 39,
+    "question": "Following code is a configuration for : <br />spring.jpa.hibernate.ddl-auto=update<br />spring.jpa.properties.hibernate.format_sql = true<br />spring.jpa.properties.hibernate.hbm2ddl = update",
+    "answer": 4,
+    "testid": 1
+  },
+  {
+    "qid": 40,
+    "question": "Following code is a configuration for : <br />logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n<br />logging.level.org.hibernate.SQL=DEBUG<br />logging.level.org.hibernate.type=TRACE",
+    "answer": 1,
+    "testid": 1
+  },
+  {
+    "qid": 41,
+    "question": "The ________ indicates the class is a Spring MVC controller stereotype",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 42,
+    "question": "“/” GetMapping indicate that this is a default (Initial) mapping for a controller",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 43,
+    "question": "The ________ attribute in RequestMapping annotation is used to indicate the HTTP request type",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 44,
+    "question": "Using the _________ collection, in JSTL you can access the form data that a user submitted to your page.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 45,
+    "question": "_______ annotation indicates that a method parameter should be bound to a web request parameter.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 46,
+    "question": "___________ annotation is used to inject defined bean into a context and called its constructor",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 47,
+    "question": "The ModelAttribute annotation can be used on a method argument as well as a method annotation also",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 48,
+    "question": "When ModelAttribute used as a method annotation it receives a bean from a view",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 49,
+    "question": "Method with ModelAttribute annotation executes on every request before any action",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 50,
+    "question": "@initBinder is not a method annotation",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 51,
+    "question": "We can use JSTL tags in Spring also",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 52,
+    "question": "___________ interface is used to configure Spring MVC configuration in a project",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 53,
+    "question": "In hibernate ______ is a format of SQL adopted by any database vendor",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 54,
+    "question": "We can call any class as a JavaBean, if all properties private (use getters/setters), A public no-argument constructor and it Implements Serializable.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 55,
+    "question": "POJO is a Plain Ordinary Java Object",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 56,
+    "question": "Hibernate can generate Database schema if hbm2ddl.auto property is set to validate",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 57,
+    "question": "_________ is used to tell Spring where to find our views and in which dialect they are written (jsp, Thymeleaf templates, and so on).",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 58,
+    "question": "@ComponentScan annotation is used to scan all Controller and Service object in a package to use in a project",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 59,
+    "question": "JDBCTemplate is a separate Data object for data connectivity in Spring MVC",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 60,
+    "question": "The pageContext provides a single object that is used most frequently for storing and retrieving objects in any scope.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 61,
+    "question": "In JSP, <% %> tag is called __________",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 62,
+    "question": "In JSP, <%= %> tag is called __________",
+    "answer": 3,
+    "testid": 2
+  },
+  {
+    "qid": 63,
+    "question": "In JSP, <%@ %> tag is called __________",
+    "answer": 4,
+    "testid": 2
+  },
+  {
+    "qid": 64,
+    "question": "In JSP, <%! %> tag is called ___________",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 65,
+    "question": "HTTP uses a model that the client makes an HTTP _______, and the web server gives back an HTTP _______ that the browser then figures out how to handle",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 66,
+    "question": "HTTP stands for Hypertext Transfer Protocol, and is the network protocol used on the Web. It runs on top of TCP/IP.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 67,
+    "question": "A _________ object includes the URL (the resource the client is trying to access), the HTTP method (GET, POST, etc.), and (optionally) form parameter data (also called the “query string”).",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 68,
+    "question": "A ___________ object includes a status code, the content-type (also known as MIME type), and the actual content of the response (HTML, image, etc.)",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 69,
+    "question": "A ____ method appends form data to the end of the URL.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 70,
+    "question": "A ________ request includes form data in the body of the request.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 71,
+    "question": "An attribute is an object set (referred to as bound) into one of three other servlet API objects—ServletContext, HttpServletRequest (or ServletRequest), or HttpSession.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 72,
+    "question": "Attributes and Parameters are same at request level",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 73,
+    "question": "In ________ level scope, everyone in the application has access",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 74,
+    "question": "_________ level scope is accessible to only those with access to a specific HttpSession.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 75,
+    "question": "_________ level accessible to only those with access to a specific ServletRequest.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 76,
+    "question": "request.___________ is used to get parameter from webserver",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 77,
+    "question": "Class.__________ method is used to load Vendor specific drivers (jar files) in JDBC",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 78,
+    "question": "___________.getConnection() method is used to call a URL for database",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 79,
+    "question": "_______ object that holds a SQL statement—and you can use the SQL statement to extract, delete, and update records in the database.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 80,
+    "question": "__________ object that holds the result of your SQL statement. It objects hold records from databases and let you work on them.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 81,
+    "question": "In Jquery, __________ is a string containing the source to which the request is sent for ajax",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 82,
+    "question": "In Jquery, __________ is a callback function which execute on the successful completion of ajax call",
+    "answer": 4,
+    "testid": 2
+  },
+  {
+    "qid": 83,
+    "question": "In Jquery, __________ specifies HTTP method (GET/POST) through which parameters can be send in ajax request.",
+    "answer": 3,
+    "testid": 2
+  },
+  {
+    "qid": 84,
+    "question": "In Jquery, _______ option is used to send data to server in ajax call. It is converted into query string",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 85,
+    "question": "We can use JQuery without JavaScript",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 86,
+    "question": "We can use JQuery without script tag",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 87,
+    "question": "_____ sign can be used as a shortcut of JQuery",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 88,
+    "question": "Statement.executeQuery(String sql) function can handle all DML queries (Select, Insert, Update, Delete)",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 89,
+    "question": "In Jquery traversing, ______ method gets the children of each element in the set of matched elements.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 90,
+    "question": "In Jquery traversing, ______ method gets the parent of each element in the current set of matched elements.",
+    "answer": 3,
+    "testid": 2
+  },
+  {
+    "qid": 91,
+    "question": "In Jquery traversing, ______ method gets the immediately following sibling of each element in the set of matched elements.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 92,
+    "question": "In Jquery traversing, ______ method gets the immediately preceding sibling of each element in the set of matched elements.",
+    "answer": 4,
+    "testid": 2
+  },
+  {
+    "qid": 93,
+    "question": "Statement. __________ (String sql) function executes a SQL statement that causes the database to be updated.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 94,
+    "question": "Simply Jquery is only use to dynamically access the DOM",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 95,
+    "question": "Jquery cannot generate DHTML (Dynamic HTML)",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 96,
+    "question": "JQuery._______ is used to perform an asynchronous HTTP request.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 97,
+    "question": "________ is used to parse JSON data to an object",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 98,
+    "question": "Which of the following is correct syntax for .on() event in JQuery",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 99,
+    "question": "To execute a servlet in Tomcat Server we have to declare it in web.xml under _________ tag",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 100,
+    "question": "In web.xml each servlet should have _____________",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 101,
+    "question": "We can have multiple url-pattren for a single servlet",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 102,
+    "question": "_________ act like a front controller which dispatch all request to spring for processing",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 103,
+    "question": "In <servlet> and <servlet-mapping> <servlet-name> tag should have same value in web.xml",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 104,
+    "question": "request.getRequestDispatcher(address) is used to redirect a webpage",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 105,
+    "question": "In Model One architecture servlet act as a ____________ for MVC design pattern",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 106,
+    "question": "MVC pattern is ____________ design pattern",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 107,
+    "question": "In Model one architecture controller send data at _________ level scope to a view",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 108,
+    "question": "Every JSP executes in the form of servlet on server.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 109,
+    "question": "JSTL stands for Java Standard Tag Library",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 110,
+    "question": "The ______ tags perform operations that form the foundation of the JSTL tag library. Using these tags, you can set scoped variables, iterate over collections, and handle exceptions.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 111,
+    "question": "The _______ tag is used to loop in several different ways. The most common use for this tag is to loop over a collection",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 112,
+    "question": "The ____ tag allows you to conditionally execute a block of tags if the condition specified.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 113,
+    "question": "The _____ tag is used to output data to the current page. Using this tag, you can display the results of variables and other expressions.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 114,
+    "question": "The _____ tag is used to assign the specified expression to the specified scoped variable.",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 115,
+    "question": "____ Identifies an entity (bean) and allows attributes, such as its name, to be overridden from the defaults.",
+    "answer": 4,
+    "testid": 2
+  },
+  {
+    "qid": 116,
+    "question": "____ Associates a field or property of the class with a column in the mapped table.",
+    "answer": 5,
+    "testid": 2
+  },
+  {
+    "qid": 117,
+    "question": "____ Identifies the primary key of the entity.",
+    "answer": 1,
+    "testid": 2
+  },
+  {
+    "qid": 118,
+    "question": "____ Allows generation strategies to be specified for the marked entity’s primary key value(s).",
+    "answer": 2,
+    "testid": 2
+  },
+  {
+    "qid": 119,
+    "question": "____ Allows a field or property to be marked so that it will not be persisted.",
+    "answer": 3,
+    "testid": 2
+  },
+  {
+    "qid": 120,
+    "question": "____ Defines the column(s) being used as a foreign key into another table.",
+    "answer": 6,
+    "testid": 2
+  },
+  {
+    "qid": 121,
+    "question": "Object oriented Programming is a technology rather than a technique",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 122,
+    "question": "In OOP we can view class as a __________ through which we can create multiple instances",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 123,
+    "question": "An instance of a class is called an _______.",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 124,
+    "question": "Object-oriented programming (OOP) models software components in terms of real-world objects.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 125,
+    "question": "Binding attributes (data members) and behaviors (member function) in to a single unit is called _________",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 126,
+    "question": "Information hiding means that objects may know how to communicate with one another across well-defined interfaces, but normally they’re not allowed to know how other objects are implemented.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 127,
+    "question": "The data components of a class are called _________.",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 128,
+    "question": "The function components of a class are called___________.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 129,
+    "question": "Member function of a class is declared with ______ access specifier so that user can use this function.",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 130,
+    "question": "Data member of class are declared with _______ access specifier. They can only be used in class implementation.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 131,
+    "question": "Function ________ is commonly used to create several functions of the same name that perform similar tasks, but on data of different types of arguments.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 132,
+    "question": "Function ________ is commonly used to create a function with same name that perform different tasks, but on data of same types of arguments.",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 133,
+    "question": "A bank account class might include member functions to make a deposit, make a withdrawal and inquire what the current balance.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 134,
+    "question": "__________ enables us to “program in the general” rather than “program in the specific.”",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 135,
+    "question": "With polymorphism, one function can cause different actions to occur, depending on the type of the object on which the function is invoked.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 136,
+    "question": "Each class you declare can provide a _________ that can be used to initialize an object of the class when the object is created.",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 137,
+    "question": "A constructor is a special member function that must be defined with the same name as the class, so that the compiler can distinguish it from the class’s other member functions.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 138,
+    "question": "The constructor call occurs explicitly when the object is created.",
+    "answer": 2,
+    "testid": 3
+  },
+  {
+    "qid": 139,
+    "question": "If a class does not explicitly include a constructor, the compiler provides a default constructor—that is, a constructor with no parameters.",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 140,
+    "question": "We can have multiple constructor in a class with the help of overloading",
+    "answer": 1,
+    "testid": 3
+  },
+  {
+    "qid": 141,
+    "question": "The sever waits around for something to happen on the client. Once it does, the server takes action and performs some piece of functionality. This model for communicating between servers and clients, known as _____________ model",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 142,
+    "question": "______________ performs are very similar to HTML elements, but with added functionality that ASP.NET can use",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 143,
+    "question": "_________________ are based HTML elements with the ability to execute on server side also",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 144,
+    "question": "________________ are special controls designed for ASP.NET",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 145,
+    "question": "______________ scripting is use form client validation",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 146,
+    "question": "Client side scripting generates from Server ",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 147,
+    "question": "Web pages interprets trough an application called _____________",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 148,
+    "question": "HTML is case sensitive ",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 149,
+    "question": "ASP.NET ________ controls are components that run on the server and encapsulate UI and other related functionality.",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 150,
+    "question": "By default, EnableViewState value is False ate page level",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 151,
+    "question": "HTML controls can also save their state is ASP.NET",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 152,
+    "question": "ASP.NET Control generates traditional HTML ",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 153,
+    "question": "All events pass two arguments to the event procedure: ___________ and ____________",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 154,
+    "question": "_____________ property tells you whether or not the forms have already been posted",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 155,
+    "question": "Setting ______________ property to true tells the web control to post the data as soon as any event occurs.",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 156,
+    "question": "Web Forms are often comprised of two separate files: the .aspx file contains the UI for the Web Form, while the .aspx.cs file, which is called a _______________",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 157,
+    "question": " A ________________ is a computer which holds information about Website",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 158,
+    "question": "SqlDataReader can store multiple tables at a time",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 159,
+    "question": "SqlDataReader can work in connected environment only",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 160,
+    "question": "SqlDataReader provide forward as well as backward navigation also",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 161,
+    "question": "SqlDataReader is efficient than DataSet in Web Application",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 162,
+    "question": "We can modify data in SqlDataReader at runtime",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 163,
+    "question": "SqlCommand. _________________ method returns SqlDataReader object when SQL query returns multiple rows",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 164,
+    "question": "SqlCommand. _________________ method is used when SQL query returns a value",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 165,
+    "question": "SqlCommand. _________________ method is used to trigger DML queries to Database",
+    "answer": 3,
+    "testid": 4
+  },
+  {
+    "qid": 166,
+    "question": "The _____________ object allows the server to communicate with the client",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 167,
+    "question": "Response. _____________ method is used to produce output on the web page.",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 168,
+    "question": "Response. _____________ allows you to send users to other pages without their knowledge",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 169,
+    "question": "The ____________ object allows browser to server communication",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 170,
+    "question": "HTML is a ____________________",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 171,
+    "question": "____________ tells the browser that this is the start of HTML Documents",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 172,
+    "question": "Repeater control renders to generate Table tag in browser",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 173,
+    "question": "We can use customize tag in Repeater with the help of Templates",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 174,
+    "question": "Data-binding Expressions are only evaluated when the ___________method is called. ASP.NET does not process them for you automatically.",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 175,
+    "question": "_______________ event is occurred with we click on any DataBound Control",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 176,
+    "question": "Primary Key is assigned to _________________ property of GridView. So we can access it when an item is clicked.",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 177,
+    "question": "________________ tag is used to display customized Column in GridView",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 178,
+    "question": "________________ property of <asp:BoundColumn> is used to bind any database field to GridView column",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 179,
+    "question": "We can use Templates in GridView Control",
+    "answer": 1,
+    "testid": 4
+  },
+  {
+    "qid": 180,
+    "question": "We cannot bind any database column at runtime to GridView",
+    "answer": 2,
+    "testid": 4
+  },
+  {
+    "qid": 181,
+    "question": ".NET Framework converts your code into a special language named ___________.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 182,
+    "question": "MSIL is a low-level and platform-independent language.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 183,
+    "question": ".NET Framework is platform independent as well as language independent also",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 184,
+    "question": "There are two type of control in ASP.NET Web Forms HTML Controls and ASP.NET Controls",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 185,
+    "question": "All ASP.NET controls are prefix with ________",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 186,
+    "question": "ASP.NET control declaration includes a _________ attribute. This attribute marks the tag as representing a server-side control.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 187,
+    "question": "We can use HTML controls as a ASP.NET (Server Side) control",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 188,
+    "question": "The ASP.NET Framework is a server-side web application framework. The .NET Framework code that you write executes on the server and not within the web browser.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 189,
+    "question": "From the perspective of ASP.NET Web Forms, nothing happens until the page is posted back to the server and can execute within the context of .NET Framework.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 190,
+    "question": "The _____________ object allows the server to communicate with the client",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 191,
+    "question": "Response. _____________ method is used to produce output on the web page.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 192,
+    "question": "Response. _____________ allows you to send users to other pages without their knowledge",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 193,
+    "question": "The ____________ object allows browser to server communication",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 194,
+    "question": "HTML is a ____________________",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 195,
+    "question": "____________ tells the browser that this is the start of HTML Documents",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 196,
+    "question": "Repeater control renders to generate Table tag in browser",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 197,
+    "question": "We can use customize tag in Repeater with the help of Templates",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 198,
+    "question": "Data-binding Expressions are only evaluated when the ___________method is called. ASP.NET does not process them for you automatically.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 199,
+    "question": "_______________ event is occurred with we click on any DataBound Control",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 200,
+    "question": "Primary Key is assigned to _________________ property of GridView. So we can access it when an item is clicked.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 201,
+    "question": "________________ tag is used to display customized Column in GridView",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 202,
+    "question": "Web Forms are often comprised of two separate files: the .aspx file contains the UI for the Web Form, while the .aspx.cs file, which is called a _______________",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 203,
+    "question": " A ________________ is a computer which holds information about Website",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 204,
+    "question": "SqlDataReader can store multiple tables at a time",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 205,
+    "question": "SqlDataReader can work in connected environment only",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 206,
+    "question": "SqlDataReader provide forward as well as backward navigation also",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 207,
+    "question": "SqlDataReader is efficient than DataSet in Web Application",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 208,
+    "question": "We can modify data in SqlDataReader at runtime",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 209,
+    "question": "In ASP.NET MVC we can use .aspx as a View Engine instead of Razor",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 210,
+    "question": "By default, EnableViewState value is False ate page level",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 211,
+    "question": "In jQuery, ________ find the element with an id of \"header\"",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 212,
+    "question": "In jQuery, ________ find all elements with a class name of \".editor-label\"",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 213,
+    "question": "In jQuery, ________ find all <div> elements",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 214,
+    "question": "In jQuery, ________ find all <div> elements that are descendants of the element with an id of \"header\"",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 215,
+    "question": "In jQuery, ________ find all <div> elements that are children of the element of \"header\"",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 216,
+    "question": "In jQuery, ________ find evenly numbered anchor tags",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 217,
+    "question": "jQuery interprets this string as a ________. it tells jQuery what elements you are searching for in the DOM.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 218,
+    "question": "________ bracket in JSON store collection of Object type",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 219,
+    "question": "In JSON a property of an object can also store array",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 220,
+    "question": "An action in a controller can execute/call another action",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 221,
+    "question": "JQuery can read dynamic (custom) attributes of any tag in HTML",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 222,
+    "question": "The _________ method creates a text string in standard URL-encoded notation for each control in form tag ",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 223,
+    "question": "_____________ is an interface which allows a collection object to use foreach construct",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 224,
+    "question": "____________ is a keyword which allows a view to access strongly typed entity properties",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 225,
+    "question": "When you write an application for .NET Framework with a language such as C# or Visual Basic .NET, your source code is compiled directly into machine code.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 226,
+    "question": "___________ within the MVC pattern are responsible for responding to user input, often making changes to the model in response to user input.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 227,
+    "question": "We can have multiple controllers in an ASP.NET Application",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 228,
+    "question": "ASP.NET MVC applications is organized around controllers and the methods defined in the controller are called ________ methods.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 229,
+    "question": "Same action in a controller can handle both GET and POST method request ",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 230,
+    "question": "Controllers can include as many action methods as needed.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 231,
+    "question": "Most action methods return an instance of a class that derives from ____________.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 232,
+    "question": "You can create action methods that return an object of any type, such as a string, an integer, or a Boolean value.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 233,
+    "question": "The default route-mapping rule has the format /{controller}/{action}/{id}",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 234,
+    "question": "In default route-mapping /{controller}/{action}/{id} all parameters are compulsory",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 235,
+    "question": "We can define multiple and optional parameters in route-mapping",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 236,
+    "question": "The ________ is responsible for providing the user interface (UI) to the user. After the controller has executed the appropriate logic for the requested URL.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 237,
+    "question": "The ________ property enables you to dynamically share values from the controller to the view. It is a dynamic object which means it has no pre-defined properties.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 238,
+    "question": "__________ allow you to set a model type for a view. This allows you to pass a model object from the controller to the view",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 239,
+    "question": "____________ is a custom model class which can hold multiple type of model types objects. It is also used to display multiple model in a single view",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 240,
+    "question": "Usually View names are similar to Action names in a Controller class",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 241,
+    "question": "An action can render a view with a different name",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 242,
+    "question": "ASP.NET MVC can generate the boilerplate code you need for create, read, update, and delete (CRUD) functionality in an application. This code generation is known as ___________, and it can do a lot more than just create views.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 243,
+    "question": "Entity Framework supports database-first, model-first and code-first styles of development",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 244,
+    "question": "_________ means you can start storing and retrieving information in database without creating a database schema",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 245,
+    "question": "__________ means your model classes (POCO) will be generated according to your database schema along with relationship.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 246,
+    "question": "___________ attribute represent an attribute that is used to restrict an action method so that the method handles only data submission",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 247,
+    "question": "___________ attribute represent an attribute that is used to restrict an action method so that the method handles only retrieval of data",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 248,
+    "question": "We can only return ActionResult from an action in a controller",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 249,
+    "question": "In ______ loading. When the entity is first read, related data isn't retrieved. This results in multiple queries sent to the database — one for the entity itself and one each time that related data for the entity must be retrieved.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 250,
+    "question": "In _________ loading. When the entity is read, related data is retrieved along with it. This typically results in a single join query that retrieves all of the data that's needed.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 251,
+    "question": "This is similar to lazy loading, except that you explicitly retrieve the related data in code; it doesn't happen automatically when you access a navigation property. You load related data manually by calling Load() method. This is known as __________",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 252,
+    "question": "By default, Entity Framework use Lazy Loading ",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 253,
+    "question": "________ is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 254,
+    "question": "________ excels at finding, traversing, and manipulating HTML elements inside an HTML document.",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 255,
+    "question": "_______ bracket in JSON store collection of Array type ",
+    "answer": 2,
+    "testid": 5
+  },
+  {
+    "qid": 256,
+    "question": "<span style=\"font-family: monospace;\">viewModel.issues = viewModel.members .Where(m => m.memberid == id.Value).Single().issues<br>.Where(i => i.memberid == id.Value && i.returndate == null); <br>viewModel.issues = db.issues <br>.Where(i => i.memberid == id.Value && i.returndate == null); </span><br> Above two statements return the same result",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 257,
+    "question": "<span style=\"font-family: monospace;\">var albums = storeDB.Albums .Include(\"Artist\")<br>.Where(a => a.Title.Contains(q)) .Take(10); </span><br> Above statements will use inner join statement between Album and Artist table",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 258,
+    "question": "<span style=\"font-family: monospace;\">var album = storeDB.Albums.Single(a => a.AlbumId == 10);<br>ViewBag.Genres = storeDB.Genres .OrderBy(g => g.Name) .AsEnumerable()<br>.Select(g => new SelectListItem { <br>Text = g.Name, <br>Value = g.GenreId.ToString(),<br>Selected = album.GenreId == g.GenreId <br>}); </span><br> Above statements will return ArrayList()",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 259,
+    "question": "<span style=\"font-family: monospace;\">var blogs1 = context.Blogs .Include(b => b.Posts) .ToList(); </span><br> <br>Above statements is an example of Eager Loading.",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 260,
+    "question": "<span style=\"font-family: monospace;\">context.Entry(post).Reference(p => p.Blog).Load(); </span><br> <br>Above statements is an example of Explicit Loading",
+    "answer": 1,
+    "testid": 5
+  },
+  {
+    "qid": 261,
+    "question": "What does the fs module stand for?",
+    "answer": 2,
+    "testid": 6
+  },
+  {
+    "qid": 262,
+    "question": "Which of the following template engines can be used with Node.js?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 263,
+    "question": "Command to list all modules that are install globally?",
+    "answer": 3,
+    "testid": 6
+  },
+  { "qid": 264, "question": "What is Callback?", "answer": 3, "testid": 6 },
+  {
+    "qid": 265,
+    "question": "How do you install Nodemon using Node.js?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 266,
+    "question": "How many Node object methods are available?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 267,
+    "question": "Node uses _________ engine in core.*",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 268,
+    "question": "Something that happened in our application that we can respond too.",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 269,
+    "question": "How to test if two nodes are equal?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 270,
+    "question": "What does a component class is defined to?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 271,
+    "question": "What is not a feature of template driven forms in Angular?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 272,
+    "question": "Which of the following API is used to transform Angular Components to native Custom Elements?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 273,
+    "question": "Select the server-side JavaScript object.",
+    "answer": 2,
+    "testid": 6
+  },
+  {
+    "qid": 274,
+    "question": "What is the default file flag used by fs.readFile() method of Node.js?",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 275,
+    "question": "Which angular package should be included to create web components?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 276,
+    "question": "Which character in Angular, encloses the property name in the view template, if displaying but with interpolation?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 277,
+    "question": "How can the third-party packages can be installed/ updated/ deleted?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 278,
+    "question": "How can the Node.js modules be exposed?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 279,
+    "question": "Which type of forms places most of the form handling logic within that form’s template?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 280,
+    "question": "Which option with express command will generate without view engine?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 281,
+    "question": "Which option of ng update command, under Angular CLI, will update all packages in package.json?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 282,
+    "question": "_____________ is the process when simple or complex functionality organized in a single or multiple JavaScript files which can be reused throughout your Node.js application.",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 283,
+    "question": "Which mongo shell command lists database names?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 284,
+    "question": "Select the output, if trying to evaluate undefined properties, in Angular?",
+    "answer": 2,
+    "testid": 6
+  },
+  {
+    "qid": 285,
+    "question": "What is the Http status code for “OK” in http module of Node.js?",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 286,
+    "question": "Which type of web applications are more suitable for Angular?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 287,
+    "question": "What is not an Angular feature, with respect to build a CRUD App in a cohesive set?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 288,
+    "question": "Select the method on the response object, can send a response to the client, to send a response of various types, of the Express.js?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 289,
+    "question": "The ___________ core module is used to create a web server in Node.js",
+    "answer": 1,
+    "testid": 6
+  },
+  {
+    "qid": 290,
+    "question": "Which of the following statements holds good with respect to Node?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 291,
+    "question": "What is not a benefit of dependency injection in Angular?",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 292,
+    "question": "Which HTTP method is used to remove a resource in REST based architecture?",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 293,
+    "question": "Which Angular component’s lifecycle hook for the components children, is invoked each time the content of the given component has been checked by the change detection mechanism of Angular?",
+    "answer": 4,
+    "testid": 6
+  },
+  {
+    "qid": 294,
+    "question": "Angular Js is based on",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 295,
+    "question": "AngularJS expressions are written using",
+    "answer": 2,
+    "testid": 6
+  },
+  {
+    "qid": 296,
+    "question": "Which directive initializes an AngularJS application?",
+    "answer": 2,
+    "testid": 6
+  },
+  {
+    "qid": 297,
+    "question": "Which Angular directive is used to binds the value of HTML controls (input, select, textarea) to application data?",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 298,
+    "question": "Which one of following is correct syntax for creating a module in AngularJs?",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 299,
+    "question": "How do you share data between controller and view?",
+    "answer": 2,
+    "testid": 6
+  },
+  {
+    "qid": 300,
+    "question": "AngularJS directives are used in ____________",
+    "answer": 3,
+    "testid": 6
+  },
+  {
+    "qid": 301,
+    "question": "In simple words Node.js is a high-performance _________ applications framework, well optimized for high concurrent environments.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 302,
+    "question": "Node.js is Client-Side JavaScript",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 303,
+    "question": "NodeJS works on ___________ engine developed by Google. Its written in C++ and is used in Google Chrome Browser.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 304,
+    "question": "NodeJS is platform independent",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 305,
+    "question": "In _____________ code is executed in sequence – each statement waits for the previous statement to finish before executing-",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 306,
+    "question": "In ______________ code in non-blocking -- each statement does not wait for the previous statement to complete its execution by using callback functionalty",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 307,
+    "question": "NodeJS is a Server-Side technology for web development only",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 308,
+    "question": "bodyParser._____________ returns middleware that only parses routes bodies and only looks at requests where the Content-Type header matches the type option",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 309,
+    "question": "When any module is installed with --global or -g switch it is installed globally, which mean all NodeJS applications can use it",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 310,
+    "question": "__________ function is used When you want access a Node module, whether a core module or one you’ve installed outside of the Node application",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 311,
+    "question": "http, path, fs (file system) is an example of third-party modules available in NodeJS",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 312,
+    "question": "__________ is the module which is used to implement MVC Framework in NodeJS web application",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 313,
+    "question": "___________functions are functions that have access to the request object (req), the response object (res), Make changes to the request and the response objects.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 314,
+    "question": "The _________ object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 315,
+    "question": "The __________ object represents the HTTP response that an Express app sends when it gets an HTTP request.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 316,
+    "question": "_________ contains key-value pairs of data submitted in the request body. It read all the parameters in page header when the form is submitted by POST method.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 317,
+    "question": "req.params object is used to read URL parameters submitted to the web page",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 318,
+    "question": "___________ an object containing a property for each query string parameter in the route. ",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 319,
+    "question": "_________ is used to bind application-level middleware to an instance of the app object",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 320,
+    "question": "We can execute a NodeJS application with both http.listen() and app.listen()",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 321,
+    "question": "The ____________in a node script returns the path of the folder where the current JavaScript file resides.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 322,
+    "question": "__________ renders a view and sends the rendered HTML string to the client. ",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 323,
+    "question": "_________ sends the HTTP response. This method performs many useful tasks for simple non-streaming responses: For example, it automatically assigns the Content-Type HTTP response.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 324,
+    "question": "_________ assigns setting name to value. You may store any value that you want, but certain names can be used to configure the behavior of the server.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 325,
+    "question": "A ________ object is an isolated instance of middleware and routes. You can think of it as a “mini-application,” capable only of performing middleware and routing functions.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 326,
+    "question": "The _________ method requests a representation of the specified resource.  This method is used to only retrieve data.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 327,
+    "question": "The __________ method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 328,
+    "question": "The __________ method replaces all current representations of the target resource with the request payload.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 329,
+    "question": "The DELETE method deletes the specified resource.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 330,
+    "question": "The __________ method is used to apply partial modifications to a resource.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 331,
+    "question": "We can update a record with PUT method also",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 332,
+    "question": "__________ is used to write complex asynchronous code that looks like normal synchronous code.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 333,
+    "question": "________ will pause the function execution until the promise is either fulfilled or rejected.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 334,
+    "question": "Any function can be defined as an asynchronous function, not just arrow functions.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 335,
+    "question": "The await operator can be used inside of any non async functions.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 336,
+    "question": "REST API is a way for two computer systems to communicate over HTTP in a similar way to web browsers and servers.",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 337,
+    "question": "_________ is used to set the HTTP status for the response from REST API.",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 338,
+    "question": "A single async function can handle multiple await calls",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 339,
+    "question": "A REST API call can only return JSON Data",
+    "answer": 2,
+    "testid": 7
+  },
+  {
+    "qid": 340,
+    "question": "A NodeJS program can execute without package.json file",
+    "answer": 1,
+    "testid": 7
+  },
+  {
+    "qid": 341,
+    "question": "Components are the main building block for React applications.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 342,
+    "question": "An expression is a fragment of JavaScript that is evaluated when a component’s render method is called and provides the means to display data to the user.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 343,
+    "question": "The term _________ is short for properties, and it reflects the way React creates the HTML content that is displayed in the browser.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 344,
+    "question": "The ______ keyword refers to the current object and is used to access its properties and methods.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 345,
+    "question": "When the ________ method is invoked, the expression is evaluated, and its result is included in the content presented to the user.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 346,
+    "question": "The dynamic nature of a React application is based on changes to _________ data, which React responds to by invoking the component’s render method again.",
+    "answer": 4,
+    "testid": 8
+  },
+  {
+    "qid": 347,
+    "question": "The this keyword is required whenever you use the properties and methods defined by a component.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 348,
+    "question": "Functions defined using the ___________ syntax don’t use the return keyword or require curly braces around the function body.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 349,
+    "question": "React invokes a component’s ____________ method when there is a change and compares the result with the HTML that is displayed in the browser so that only the differences are applied.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 350,
+    "question": "The data that is received by a child component through its props is read-only.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 351,
+    "question": "A child component can access and modify its props with the setState method.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 352,
+    "question": "A child component can have its state data, which is what a component uses to handle its content.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 353,
+    "question": "The component in the listing implements the _________________ method, which is invoked early in the component’s life and provides a good opportunity to perform tasks such as loading data.",
+    "answer": 4,
+    "testid": 8
+  },
+  {
+    "qid": 354,
+    "question": "componentDidMount method triggers whenever the component state changes.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 355,
+    "question": "React is a flexible and powerful open-source _____________ for developing client-side applications.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 356,
+    "question": "In ______________, an initial HTML document is sent to the browser, but user interactions lead to HTTP requests for small fragments of HTML or data inserted into the existing set of elements being displayed to the user.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 357,
+    "question": "In Single-page applications (SPAs), the initial HTML document can reload or replaced.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 358,
+    "question": "We can create React Project without using create-react-app CLI tool.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 359,
+    "question": "In JSX, expressions are denoted by_____________, and the result is inserted into the content generated by a component.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 360,
+    "question": "__________ consists of a comprehensive set of properties that can be used to configure every aspect of an HTML element’s appearance and a set of selectors that allow those properties to be applied.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 361,
+    "question": "____________ property is used in JSX to assign CSS class to an HTML element.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 362,
+    "question": "JavaScript supports _____________, which allow data values to be specified inline, Template strings begin and end with backticks, and data values are denoted by curly braces preceded by a dollar sign.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 363,
+    "question": "The ___________ operator is used to expand an array so that its contents can be used as function arguments.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 364,
+    "question": "The spread operator is used to expand arrays as well as objects also.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 365,
+    "question": "The __________ Operator is used to collect / combine multiple values in to an array.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 366,
+    "question": "A child component can also execute the parent component method.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 367,
+    "question": "A _____________ component has its own data that influences the content the component renders.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 368,
+    "question": "A ___________ component will always render the same HTML elements given the same set of prop values, regardless of how often the function is invoked.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 369,
+    "question": "We can use state Object in stateless components.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 370,
+    "question": "setState method is also useful for updating nested state properties.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 371,
+    "question": "The _____________ hook is used to create state data for stateless components.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 372,
+    "question": "By ______________, means the state is moved to the first common ancestor component and distributed back down to the components that require it using props.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 373,
+    "question": "____________ method returns a new array containing the items for which the test function returns true.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 374,
+    "question": "____________ method returns the first item in the array for which the test function returns true.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 375,
+    "question": "_____________ method returns true if the array contains the specified value.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 376,
+    "question": "____________ method returns true if calling the test function for each item in the array returns true at least once.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 377,
+    "question": "The _____________ hook is used to register a function that will be invoked when the component is mounted, updated, and unmounted.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 378,
+    "question": "_____________ method is called after React has completed the reconciliation process following an update.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 379,
+    "question": "______________________ provide an alternative to specialized components and are useful when components require common code but may not render related content.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 380,
+    "question": "A Higher-order component (HOCs) is a function that accepts a component and returns a new component that wraps around it to provide additional features.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 381,
+    "question": "In redux, __________ moves the application’s state outside of the React component hierarchy.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 382,
+    "question": "Using a data store in redux means that the data doesn’t have to be lifted up to the top-level component",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 383,
+    "question": "React is responsible for the contents of each form element, using a state data property to store its value and an event handler to respond to changes. This is known as “Controlled Form”.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 384,
+    "question": "It is necessary to use _____________ event on every element (control) in Controlled Form technique to update state of each control.",
+    "answer": 4,
+    "testid": 8
+  },
+  {
+    "qid": 385,
+    "question": "The ________________ package contains the main Redux data store features.",
+    "answer": 3,
+    "testid": 8
+  },
+  {
+    "qid": 386,
+    "question": "The _______________ package contains the integration features for using Redux with React.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 387,
+    "question": "in Redux, an __________ describes an operation that will change the data in the store. Redux doesn’t allow data to be modified directly, it is required to specify changes.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 388,
+    "question": "______________ are plain JavaScript objects that have a type parameter, which specifies the action type. This ensures that actions can be identified and processed correctly.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 389,
+    "question": "A ________________ is a function that receives an action and processes the change it represents in the data store. An action specifies which operation should be applied to the data store.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 390,
+    "question": "In Reducer, an action has the action type, which specifies the operation and the _____________, which provides the data that the operation requires.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 391,
+    "question": "Actions are applied to the data store by a JavaScript function called a ___________.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 392,
+    "question": "The React-Redux package includes a React container component that provides access to a data store, called _______________.It is applied at the top of the component hierarchy so that the data store is available throughout the application.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 393,
+    "question": "The _____________ function creates a higher-order component (HOC) that passes on props connected to the data store merged with the props that are provided by the parent component.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 394,
+    "question": "The ____________________ function is used to returns an object that maps prop names for the connected component to data in the store.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 395,
+    "question": "The ____________________ is used to wrap each action creator function in a dispatch method, which is responsible for sending the action returned by the action creator to the reducer.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 396,
+    "question": "The ______________ component is used to implement an application’s routing scheme, which it does by waiting until the browser navigates to a specific URL and displaying a component when it does.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 397,
+    "question": "The ______________ components have been rendered to produce anchor (elements whose tag is a) elements in react-route package.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 398,
+    "question": "In Route component, ____________ prop is used to specify the URL or URLs that the component should wait for.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 399,
+    "question": "In Route component, ____________ prop is used to specify a single component that will be displayed when the path prop matches the browser’s current URL.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 400,
+    "question": "In Route Component, render prop is used to specify a function that returns the content that will be displayed when the path prop matches the browser’s current URL.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 401,
+    "question": "MongoDB requires that each document have a unique identifier which is called __________.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 402,
+    "question": "In MongoDB, Collections are somewhat analogous to records, in RDBMS.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 403,
+    "question": "Perhaps the easiest way to think of a database in MongoDB is as a collection of ______________.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 404,
+    "question": "MongoDB store data in the form of BSON, stands for Binary Serialized Object Notation.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 405,
+    "question": "The _________________ function is used to retrieve all document from collection.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 406,
+    "question": "db.media.find().sort({ Title: -1 }) will display all documents from collection in ascending order by Title.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 407,
+    "question": "The __________ function to specify the maximum number of results returned.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 408,
+    "question": "db.students.find().limit(1) and db.students.findOne() will produced identical results.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 409,
+    "question": "In MongoDB, _____________ function is used to update a particular value in a document.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 410,
+    "question": "In MongoDB, _____________ function is used to remove a particular value (field) in a document.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 411,
+    "question": "In MongoDB, _____________ function is used to append a value in array type object in a document.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 412,
+    "question": "In MongoDB, _________________ function has the ability to perform a selection of operations by creating a pipeline of operations that will be executed in symmetrical order on all of the data in your collection.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 413,
+    "question": "In MongoDB, aggregate function executes in order first on the data and then each subsequent operation will be on the results of the previous operation.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 414,
+    "question": "The ___________ command does what its name suggests; it groups documents together so you can create an aggregate of the results.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 415,
+    "question": "{$group: {_id: \"$marks”}}, In $group command _id field is not necessary to mention.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 416,
+    "question": "In MongoDB, the ___________ operator is best used at the start of the pipeline to limit the number of documents that are initially put into the pipeline to aggregate.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 417,
+    "question": "In MongoDB, the ______________ operator adds a new array field in each document whose elements are the matching from the “joined” collection.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 418,
+    "question": "The _______________ takes an array and splits each element into a new document (in memory and not added to your collection) for each array element.",
+    "answer": 1,
+    "testid": 8
+  },
+  {
+    "qid": 419,
+    "question": "________________operator is used to limit the fields or to rename fields returned as part of a document. It’s the perfect way to cut down on any excess fields returned by your aggregations.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 420,
+    "question": "We can have Many To Many relationship in MongoDB.",
+    "answer": 2,
+    "testid": 8
+  },
+  {
+    "qid": 421,
+    "question": "The _____________ method, passing in a function that I want to be executed only when the browser has loaded all of the content in the HTML document.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 422,
+    "question": "The $ symbol is the entry point jQuery and is a shorthand for the jQuery function.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 423,
+    "question": "$(function() {}) is an alternative to $(document).ready() method.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 424,
+    "question": "_________Selects the element at the nth index (zero-based) sibling of the parent element.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 425,
+    "question": "________________ is used to perform the function on each of the elements in the given collection.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 426,
+    "question": "___________ property returns the number of elements contained by the jQuery / an Array object.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 427,
+    "question": "_____________ method selects all of the elements that match the selector and that are children of the elements in the jQuery object.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 428,
+    "question": "______________ defines handlers for events for elements that exist now or in the future. Usually on live data, received after ajax call.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 429,
+    "question": "____________ method is used apply CSS attributes to an element.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 430,
+    "question": "We can apply multiple CSS attributes in a single method call.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 431,
+    "question": ".css() method is used for both to set or get style properties of an element.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 432,
+    "question": "______________ method is used to get parent node of the specific element.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 433,
+    "question": "______________ method selects the immediate previous sibling for each element in the jQuery.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 434,
+    "question": "____________ selects the immediate next sibling for each element in the jQuery object, optionally filtered by a selector.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 435,
+    "question": "_______________method encodes a set of form elements into a string suitable for submission to a server.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 436,
+    "question": "_____________ method encodes a set of form elements into an array ready for encoding into JSON.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 437,
+    "question": "_______________ method creates a JavaScript object from JSON data in JQuery.",
+    "answer": 2,
+    "testid": 9
+  },
+  {
+    "qid": 438,
+    "question": "__________________ method is used to convert JSON object in to String.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 439,
+    "question": "Ajax allows you to make requests to the server asynchronously, meaning, in short, that your request happens in the background and doesn’t prevent the user from interacting with the content in your HTML.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 440,
+    "question": "We can use PUT or PATCH methods in ajax call also.",
+    "answer": 1,
+    "testid": 9
+  },
+  {
+    "qid": 441,
+    "question": "Computers works on ____________ number systems.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 442,
+    "question": "Binary number are used to store information in the form of bytes.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 443,
+    "question": "ASCII stands for American Standard Code for Interchange Information.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 444,
+    "question": "Computer uses a standard mapping from numbers to letters, called ________.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 445,
+    "question": "8 bits combine to create a ___________",
+    "answer": 3,
+    "testid": 10
+  },
+  {
+    "qid": 446,
+    "question": "Abstraction is the process of finding creative solutions of problems.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 447,
+    "question": "Algorithms are the steps to solve the problem.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 448,
+    "question": "Abstraction is the process of Computational thinking.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 449,
+    "question": "If an algorithm requires n steps to complete the task, that means it execute each step at least once.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 450,
+    "question": "If an algorithm requires n/2 steps to complete the task, that means it is 75% efficient.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 451,
+    "question": "IF, ELSE IF, and ELSE are branching statement used to execute 'True or 'False statements depending on the condition evaluated.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 452,
+    "question": "_________________ are English like syntax used to define the steps involve solving a problem.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 453,
+    "question": "____________ in programming are like verbs or actions that allow us to do something.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 454,
+    "question": "Boolean expression can represent more than two values.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 455,
+    "question": "A Boolean expression can be represented in 1 bit.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 456,
+    "question": "Scratch is Event Driven Programming environment.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 457,
+    "question": "Scratch supports multithreading.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 458,
+    "question": "________________ is the ability for a computer program to do multiple things at once.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 459,
+    "question": "A repeat block in Scratch, can be translated as conditional (while) loop in C language.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 460,
+    "question": "Pre-Processor Directives are optional in C languages.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 461,
+    "question": "We can not create user defined Header Files in C language.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 462,
+    "question": "We can use conditional loop in Scratch Programming.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 463,
+    "question": "The software which is used to convert source code into machine code is called __________.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 464,
+    "question": "C language is ____________ driven language.",
+    "answer": 3,
+    "testid": 10
+  },
+  {
+    "qid": 465,
+    "question": "In printf() function, both %d and %i can be used to print integer value.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 466,
+    "question": "The second argument of scanf begins with an ____________ called the address operator followed by the variable name. It is combined with the variable name, tells scanf the location (or address) in memory at which the variable is stored.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 467,
+    "question": "A ___________ is another construct in C where the value of a variable is compared to various cases, and the indented code beneath a matching case will be executed.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 468,
+    "question": "It is compulsory to define the prototype of a user define function before main() function.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 469,
+    "question": "The _________ header file contains information used by the compiler when compiling calls to standard input/output library functions such as printf.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 470,
+    "question": "C stores strings in memory with one character in each byte, but also with a terminating, or ending character, at the end of each string. This special character is called ____________.",
+    "answer": 3,
+    "testid": 10
+  },
+  {
+    "qid": 471,
+    "question": "We can initialize an integer in for loop.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 472,
+    "question": "An array is a group of _____________memory locations that all have the __________ type.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 473,
+    "question": "Any one of the elements may be referred to by giving the array’s name followed by the position number of the element in square brackets ([]).",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 474,
+    "question": "We can initialize an array at the time of declaration",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 475,
+    "question": "It is necessary to prefix & ampersand sign to take input in a string variable using scanf().",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 476,
+    "question": "We can store RGB color value in ASCII Codes.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 477,
+    "question": "The maximum value that each character or amount of one color in RGB is _______.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 478,
+    "question": "___________ function in C language is used to produce output on console.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 479,
+    "question": "All programs in C languages starts from __________ function.",
+    "answer": 2,
+    "testid": 10
+  },
+  {
+    "qid": 480,
+    "question": "There are multiple ways to take input in character array.",
+    "answer": 1,
+    "testid": 10
+  },
+  {
+    "qid": 481,
+    "question": "To browse a website, we generally use a software called _____________.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 482,
+    "question": "Web browser somehow talks to other servers to return websites and other data are called _____________.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 483,
+    "question": "HTML is a programming Language.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 484,
+    "question": "Modern companies with high-traffic websites uses environment where lots of computers, positioned neatly (or not so neatly) on racks, are are called ________________.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 485,
+    "question": "To visit a website, it is compulsory to prefix www before a URL in a browser.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 486,
+    "question": "_____________, a set of standards that indicate how a client should talk to a web server.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 487,
+    "question": "Latest version of HTTP protocol is __________.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 488,
+    "question": "in  HTTP protocol, with a _________ status code, a server can tell a client that the website is at some other address.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 489,
+    "question": "in  HTTP protocol, _________ status code indicates successful HTTP request.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 490,
+    "question": "in  HTTP protocol, _________ status code tells the client to look at (browse to) another URL (Found - Previously \"Moved temporarily\").",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 491,
+    "question": "in  HTTP protocol, ___________ status codes Indicates that the resource has not been modified since the version specified by the request headers.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 492,
+    "question": "in  HTTP protocol, ____________ status code, is specifically used when authentication is required and has failed or has not yet been provided.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 493,
+    "question": "in  HTTP protocol, __________ status code defines that the requesting client doesn’t have the permissions to access a particular page.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 494,
+    "question": "in  HTTP protocol, ___________ status code indicates that the requested resource could not be found.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 495,
+    "question": "500 Internal Server Error status indicates that the code on the web server itself had an error.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 496,
+    "question": "______________ command in the CS50 IDE is used fetch headers from website.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 497,
+    "question": "Every device connected to the Internet has some address, known as an ________ address.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 498,
+    "question": "IP addresses identify computers and phones in the format #.#.#.#. each of the numbers can be in the range 0 to _____. ",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 499,
+    "question": "IP addresses identify computers and phones in the format #.#.#.#. An IP address with 4 of these numbers has 32 bits, and from there we can deduce that a total of about _____ billion unique IP addresses exist.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 500,
+    "question": "The technology used for computers to automatically acquire an IP address from a server on the network it is connected to, is called _________.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 501,
+    "question": "The technology which maps IP addresses to domain names, and vice versa is called ___________",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 502,
+    "question": "___________ command is used to translate IP address from domain name.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 503,
+    "question": "We can access any website with its IP address also.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 504,
+    "question": "________ is a standard that defines how to establish and maintain a network conversation through which application programs can exchange data.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 505,
+    "question": "We can send an HTTPS request to port 80.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 506,
+    "question": "The HTML code (in blue) is made up of characters that live inside angled brackets — these are called HTML ___________.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 507,
+    "question": "Elements are usually made up of two tags: an opening tag and a closing tag. The closing tag has an extra __________ in it.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 508,
+    "question": "__________ provide additional information about the contents of HTML element.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 509,
+    "question": "An attribute of an element can have multiple values.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 510,
+    "question": "Everything inside __________ element is shown inside the main browser window.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 511,
+    "question": "You will usually find a <head> element inside the <title> element.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 512,
+    "question": "The contents of the ________ element are either shown on the tab for that page in the top of the browser.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 513,
+    "question": "HTML pages are _________ documents.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 514,
+    "question": "Tags are often referred to as elements.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 515,
+    "question": "__________ tags can carry attributes, which tell us more about the content of that element. ",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 516,
+    "question": "HTML pages have lines and pages.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 517,
+    "question": "In HTML, If you wanted to add a line break inside the middle of a paragraph you can use __________ tag.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 518,
+    "question": "_________ tag is used to add a horizontal rule between sections.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 519,
+    "question": "By default, browsers will show the contents of an <em> element in bold.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 520,
+    "question": "The purpose of <blockquote> element can also be achieved by CSS also.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 521,
+    "question": "__________ lists are lists where each item in the list is numbered.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 522,
+    "question": "___________ lists are lists that begin with a bullet point (rather than characters that indicate order).",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 523,
+    "question": "Lists can be nested inside one another.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 524,
+    "question": "__________ are the defining feature of the web because they allow you to move from one web page to another.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 525,
+    "question": "The value of the __________ attribute in anchor tag, is the address of the page that you want people to go to when they click on the link.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 526,
+    "question": "The ________ element uses the href attribute to indicate the page you are linking to.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 527,
+    "question": "To add an image into the page you need to use an ________ element.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 528,
+    "question": "Block elements in HTML, always appear on a new line.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 529,
+    "question": "Inline elements sit within a block level element and do not start on a new line.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 530,
+    "question": "__________ images are resolution-dependent, increasing the size of image will affect the quality of image.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 531,
+    "question": "__________ images are resolution-independent, you can increase the dimensions of the image without affecting the quality of it.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 532,
+    "question": "GIF images store less colors as compare to JPEG images.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 533,
+    "question": " ________ tag is used to represents information in a grid format.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 534,
+    "question": "The __________attribute can be used on a <td> element and indicates how many columns that cell should run across.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 535,
+    "question": "The __________ attribute can be used on a <td> element to indicate how many rows a cell should span down the table.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 536,
+    "question": "The _______ element is used to add tables to a web page.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 537,
+    "question": "A table is drawn out row by row. Each row is created with the _______ element.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 538,
+    "question": "Inside each row of the table there are a number of cells represented by the ______ element.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 539,
+    "question": "Form controls live inside a ________ element. There are several types of form controls that you can use to collect information from visitors to your site.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 540,
+    "question": "Every <form> element requires an _________ attribute. Its value is the URL for the page on the server that will receive the information in the form when it is submitted.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 541,
+    "question": "With the _______ method, the values from the form are added to the end of the URL specified in the action attribute.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 542,
+    "question": "With the _______ method the values from the form are sent in what are known as HTTP headers.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 543,
+    "question": "Every HTML element can carry the ________ attribute. It is used to uniquely identify that element from other elements on the page.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 544,
+    "question": "in HTML multiple tags can have same name attribute.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 545,
+    "question": "The _________ element is used to create a mutli-line text input.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 546,
+    "question": "The __________ element is used to create several different form controls. The value of the type attribute determines what kind of input they will be creating.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 547,
+    "question": "The _________ element is used to create a drop down list box.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 548,
+    "question": "<select> element is used to create drop down box as well as List box control. Which is used to select multiple value from listbox control.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 549,
+    "question": "We can only create buttons from <button> tag.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 550,
+    "question": "CSS allows you to create rules that specify how the content of an element should appear.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 551,
+    "question": "A CSS rule contains two parts: a __________ and a _____________.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 552,
+    "question": "in CSS, ___________ indicate which element the rule applies to. The same rule can apply to more than one element if you separate the element names with commas.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 553,
+    "question": "In CSS, ___________ indicate how the elements referred to in the selector should be styled.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 554,
+    "question": "The _________ element can be used in an HTML document to tell the browser where to find the CSS file used to style the page.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 555,
+    "question": "You can also include CSS rules within an HTML page by placing them inside a ________ element, which usually sits inside the <head> element of the page.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 556,
+    "question": "In CSS, The ________ property allows you to specify the color of text inside an element.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 557,
+    "question": "CSS treats each HTML element as if it appears in a box, and the __________ property sets the color of the background for that box.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 558,
+    "question": "In CSS, if you do not specify a background color, then the background is transparent.",
+    "answer": 1,
+    "testid": 11
+  },
+  {
+    "qid": 559,
+    "question": "The CSS3 _______ property allows you to specify a color, but adds a fourth value to indicate opacity.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 560,
+    "question": "__________ allows you to use a font, even if it is not installed on the computer of the person.",
+    "answer": 2,
+    "testid": 11
+  },
+  {
+    "qid": 561,
+    "question": "Traditionally, software has been written for _________ computation.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 562,
+    "question": "A problem is broken into a discrete series of instructions.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 563,
+    "question": "In serial computation only one instruction may execute at any moment in time.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 564,
+    "question": "In _______ computing simultaneous use of multiple compute resources to solve a computational problem.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 565,
+    "question": "In _________ computation, a problem is broken into a discrete series of instructions.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 566,
+    "question": "In _________ computation, a problem is broken into discrete parts that can be solved concurrently.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 567,
+    "question": "Which of the following statement is true in case of compute resources:",
+    "answer": 3,
+    "testid": 14
+  },
+  {
+    "qid": 568,
+    "question": "Which of the following statement is false with respect to the computational problem should be able to:",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 569,
+    "question": "Which of following is not the main reason for the use of parallel computing",
+    "answer": 4,
+    "testid": 14
+  },
+  {
+    "qid": 570,
+    "question": "Neumann Architecture is named after the Hungarian mathematician John von Neumann who first authored the general requirements for an electronic computer in the year _______ in his papers.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 571,
+    "question": "The following statements are true for Neumann Architecture<br><ul><li>Read/write, random access memory is used to store both program instructions and data.</li><li>Program instructions are coded data which tell the computer to do something.</li><li>Data is simply information to be used by the program.</li></ul>",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 572,
+    "question": "_________ fetches instructions/data from memory, decodes the instructions and then sequentially coordinates operations to accomplish the programmed task.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 573,
+    "question": "________ performs basic arithmetic operations.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 574,
+    "question": "Flynn's taxonomy distinguishes multi-processor computer architectures according to how they can be classified along the two independent dimensions of _________ and _______.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 575,
+    "question": "In _______, only one instruction stream is being acted on by the CPU during any one clock cycle and one data stream is being used as input during any one clock cycle.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 576,
+    "question": "Single Instruction, Single Data machines are older generation mainframes, minicomputers and workstations; most modern day PCs.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 577,
+    "question": "SISDs can be parallel also",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 578,
+    "question": "_______ is a type of parallel computer. All processing units execute the same instruction at any given clock cycle. Each processing unit can operate on a different data element.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 579,
+    "question": "______ are best suited for specialized problems characterized by a high degree of regularity, such as graphics/image processing.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 580,
+    "question": "Most modern computers, particularly those with graphics processor units (GPUs) employ ______ instructions and execution units.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 581,
+    "question": "__________ is a type of parallel computer. Each processing unit operates on the data independently via separate instruction streams. A single data stream is fed into multiple processing units.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 582,
+    "question": "SIMD and MISD executes on a similar model.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 583,
+    "question": "All Flynn's taxonomy processor architectures are parallel computers.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 584,
+    "question": "All Flynn's taxonomy processor architectures can execute serial instructions.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 585,
+    "question": "Most current supercomputers, networked parallel computer clusters and \"grids\", multi-processor SMP computers, multi-core PCs are examples of _______.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 586,
+    "question": "_______ is a standalone \"computer in a box\". Usually composed of multiple CPUs/processors/cores. Nodes are networked together to comprise a supercomputer.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 587,
+    "question": "_________ is a logically discrete section of computational work. It is typically a program or program-like set of instructions that is executed by a processor.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 588,
+    "question": "___________ is a concept of breaking a task into steps performed by different processor units, with inputs streaming through, much like an assembly line; a type of parallel computing.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 589,
+    "question": "_____________ describes a computer architecture where all processors have direct (usually bus based) access to common physical memory. In a programming sense, it describes a model where parallel tasks all have the same \"picture\" of memory and can directly address and access the same logical memory locations regardless of where the physical memory actually exists.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 590,
+    "question": "______________, refers to network based memory access for physical memory that is not common. As a programming model, tasks can only logically \"see\" local machine memory and must use communications to access memory on other machines where other tasks are executing.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 591,
+    "question": "UMA and NUMA are the two main classes of distributed memory.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 592,
+    "question": "In Shared memory architecture changes in a memory location affected by one processor are not visible to all other processors.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 593,
+    "question": "Uniform Memory Access most commonly represented today by Symmetric Multiprocessor (SMP) machines.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 594,
+    "question": "In Uniform Memory Access have Identical processors but they do not have equal access and access times to memory.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 595,
+    "question": "Cache coherent means if one processor updates a location in shared memory, all the other processors know about the update.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 596,
+    "question": "Cache coherency can be accomplished at the software level also.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 597,
+    "question": "In Non-Uniform Memory Access Memory (NUMA) access across links is faster as compared to Uniform Memory Access (UMA).",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 598,
+    "question": "_________ refers to a parallel system's (hardware and/or software) ability to demonstrate a proportionate increase in parallel speedup with the addition of more processors.",
+    "answer": 2,
+    "testid": 14
+  },
+  {
+    "qid": 599,
+    "question": "Shared memory parallel computers vary widely, but generally have in common the ability for all processors to access all memory as global address space.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 600,
+    "question": "Multiple processors can operate independently but share the same memory resources.",
+    "answer": 1,
+    "testid": 14
+  },
+  {
+    "qid": 601,
+    "question": "HPC and HTC are same concept / technologies.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 602,
+    "question": "Cloud Technology, eScience and Multicore / Parallel Computing is dependent upon Data Deluge.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 603,
+    "question": "The __________ is often a collection of homogeneous compute nodes that are physically connected in close range to one another.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 604,
+    "question": "__________ networks are formed for distributed file sharing and content delivery applications.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 605,
+    "question": "In peer-to-peer (P2P) networks, Peer machines are globally distributed in nature.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 606,
+    "question": "This ______ paradigm pays more attention to high-flux computing. The main application for high-flux computing is in Internet searches and web services by millions or more users simultaneously.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 607,
+    "question": "___________ computing is a computing paradigm by which all computer resources are centralized in one physical system.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 608,
+    "question": "In ____________ computing, all processors are either tightly coupled with centralized shared memory or loosely coupled with distributed memory.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 609,
+    "question": "Many data centers and supercomputers are centralized systems, but they are used in parallel, distributed, and cloud computing applications.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 610,
+    "question": "In Centralized computing all resources (processors, memory, and storage) are fully shared and tightly coupled within one integrated OS.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 611,
+    "question": "A ____________ system consists of multiple autonomous computers, each having its own private memory, communicating through a computer network.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 612,
+    "question": "Information exchange in a distributed system is accomplished through message passing.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 613,
+    "question": "The Internet of Things (IoT) is a networked connection of everyday objects including computers, sensors, humans, etc.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 614,
+    "question": "_________ can be built with physical or virtualized resources over large data centers that are centralized or distributed.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 615,
+    "question": "__________ computing refers to computing with pervasive devices at any place and time using wired or wireless communication.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 616,
+    "question": "_________ computing is envisioned to allow close interaction among applications running on distant computers simultaneously.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 617,
+    "question": "____________ converts bit-serial processing to word-level processing gradually.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 618,
+    "question": "In ____________________, in which the processor executes multiple instructions simultaneously rather than only one instruction at a time.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 619,
+    "question": "_________ computing focuses on a business model in which customers receive computing resources from a paid service provider.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 620,
+    "question": "All grid/cloud platforms are regarded as utility service providers.",
+    "answer": 1,
+    "testid": 15
+  },
+  { "qid": 621, "question": "MIPS stands for:", "answer": 2, "testid": 15 },
+  {
+    "qid": 622,
+    "question": "Mbps stands for Megabytes per second.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 623,
+    "question": "Each core is essentially a processor with its own private cache called _______ cache.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 624,
+    "question": "Multiple cores are housed in the same chip with a cache that is shared by all cores, called ______ cache.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 625,
+    "question": "The GPU offloads the CPU from all data-intensive calculations, not just those that are related to video processing.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 626,
+    "question": "The _____ has a many-core architecture that has hundreds of simple processing cores organized as multiprocessors.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 627,
+    "question": "a _______ typically is used to connect client hosts to big servers.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 628,
+    "question": "A ______ connects servers to network storage such as disk arrays.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 629,
+    "question": "______ connects client hosts directly to the disk arrays.",
+    "answer": 3,
+    "testid": 15
+  },
+  {
+    "qid": 630,
+    "question": "_______________ works as a middleware between a virtual machine and the host platform.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 631,
+    "question": "The VM could run on an OS different from that of the host computer.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 632,
+    "question": "Google search engine, SunBlade, IBM Road Runner and Cray XT4 are examples of ______________.",
+    "answer": 3,
+    "testid": 15
+  },
+  {
+    "qid": 633,
+    "question": "Gnutella, eMule, BitTorrent, Napster, KaZaA, Skype and JXTA are examples of _______________.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 634,
+    "question": "TeraGrid, GriPhyN, UK EGEE, D-Grid and ChinaGrid are examples of _______________.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 635,
+    "question": "Google App Engine, IBM Bluecloud, AWS, and Microsoft Azure are examples of _______________.",
+    "answer": 4,
+    "testid": 15
+  },
+  {
+    "qid": 636,
+    "question": "A computing grid offers an infrastructure that couples computers, software/middleware, special instruments, and people and sensors together.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 637,
+    "question": "The _________ architecture offers a distributed model of networked systems, designed over client-oriented instead of server-oriented network.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 638,
+    "question": "This _________ is a virtual network formed by mapping each physical machine with its ID, logically, through a virtual mapping.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 639,
+    "question": "___________ is a library of subprograms that can be called from C or FORTRAN to write parallel programs running on distributed computer systems.",
+    "answer": 2,
+    "testid": 15
+  },
+  {
+    "qid": 640,
+    "question": "__________ is a web programming model for scalable data processing on large clusters over large data sets, or in web search operations.",
+    "answer": 1,
+    "testid": 15
+  },
+  {
+    "qid": 641,
+    "question": "Which data structure is needed to convert infix notation to postfix notation?",
+    "answer": 3,
+    "testid": 16
+  },
+  {
+    "qid": 642,
+    "question": "A data structure in which elements can be inserted or deleted at/from both the ends but not in the middle is.",
+    "answer": 4,
+    "testid": 16
+  },
+  {
+    "qid": 643,
+    "question": "A queue follows __________",
+    "answer": 1,
+    "testid": 16
+  },
+  {
+    "qid": 644,
+    "question": "If the elements “A”, “B”, “C” and “D” are placed in a queue and are deleted one at a time, in what order will they be removed?",
+    "answer": 1,
+    "testid": 16
+  },
+  {
+    "qid": 645,
+    "question": "A normal queue, if implemented using an array of size MAX_SIZE, gets full when?",
+    "answer": 1,
+    "testid": 16
+  },
+  {
+    "qid": 646,
+    "question": "In a stack, if a user tries to remove an element from an empty stack it is called _________",
+    "answer": 1,
+    "testid": 16
+  },
+  {
+    "qid": 647,
+    "question": "Entries in a stack are “ordered”. What is the meaning of this statement?",
+    "answer": 4,
+    "testid": 16
+  },
+  {
+    "qid": 648,
+    "question": "What is the value of the postfix expression 6 3 2 4 + – *?",
+    "answer": 4,
+    "testid": 16
+  },
+  {
+    "qid": 649,
+    "question": "What should be done when a left parenthesis ‘(‘ is encountered?",
+    "answer": 3,
+    "testid": 16
+  },
+  {
+    "qid": 650,
+    "question": "What is the postfix expression for the corresponding infix expression?  a+b*c+(d*e)",
+    "answer": 1,
+    "testid": 16
+  },
+  {
+    "qid": 651,
+    "question": "What is the postfix expression for the infix expression? a-b-c",
+    "answer": 2,
+    "testid": 16
+  },
+  {
+    "qid": 652,
+    "question": "In infix to postfix conversion algorithm, the operators are associated from.",
+    "answer": 2,
+    "testid": 16
+  },
+  {
+    "qid": 653,
+    "question": "A linear collection of data elements where the linear node is given by means of pointer is called?",
+    "answer": 1,
+    "testid": 16
+  },
+  {
+    "qid": 654,
+    "question": "In Linked List implementation, a node carries information regarding ___________",
+    "answer": 3,
+    "testid": 16
+  },
+  {
+    "qid": 655,
+    "question": "Which of the following is false about a doubly linked list?",
+    "answer": 4,
+    "testid": 16
+  },
+  {
+    "qid": 656,
+    "question": "Which command to change the file location to another folder?",
+    "answer": 2,
+    "testid": 17
+  },
+  {
+    "qid": 657,
+    "question": "Which of the following properties defines the font size of the text in CSS?",
+    "answer": 2,
+    "testid": 17
+  },
+  {
+    "qid": 658,
+    "question": "What will be the output of the following Python function? <br> len([\"hello\",2, 4, 6])",
+    "answer": 3,
+    "testid": 17
+  },
+  {
+    "qid": 659,
+    "question": "PNG means _______________",
+    "answer": 1,
+    "testid": 17
+  },
+  {
+    "qid": 660,
+    "question": "Which of the following character is used to give single-line comments in Python?",
+    "answer": 2,
+    "testid": 17
+  },
+  {
+    "qid": 661,
+    "question": "Which of the following HTML tags will insert a line break?",
+    "answer": 4,
+    "testid": 17
+  },
+  {
+    "qid": 662,
+    "question": "Which of the following tags are related to a table in HTML?",
+    "answer": 2,
+    "testid": 17
+  },
+  {
+    "qid": 663,
+    "question": "Which of the following is the correct extension of the Python file?",
+    "answer": 3,
+    "testid": 17
+  },
+  {
+    "qid": 664,
+    "question": "Which of the following is used to define a block of code in Python language?",
+    "answer": 1,
+    "testid": 17
+  },
+  {
+    "qid": 665,
+    "question": "Process of removing an element from stack is called __________",
+    "answer": 4,
+    "testid": 17
+  },
+  {
+    "qid": 666,
+    "question": "Virtualization is a computer architecture technology by which multiple _____________ are multiplexed in the same hardware machine.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 667,
+    "question": "The purpose of a VM is to enhance resource sharing by many users and improve computer performance in terms of resource utilization and application flexibility.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 668,
+    "question": "An _____________________ virtualization emulation is conducted through code interpretation. An interpreter program interprets the source instructions to target instructions one by one.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 669,
+    "question": "Hardware-level virtualization is performed right on top of the bare hardware.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 670,
+    "question": "WINE and vCUDA are examples of hardware level virtualization.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 671,
+    "question": "Application-level virtualization is also known as process-level virtualization.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 672,
+    "question": "Process-level virtualization is also known as __________________________.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 673,
+    "question": "The Microsoft .NET CLR and Java Virtual Machine (JVM) are two good examples of this class of ____________________.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 674,
+    "question": "Hardware-level virtualization inserts a layer between real hardware and traditional operating systems. This layer is commonly called the ___________________________.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 675,
+    "question": "Two OS tools (Linux vServer and OpenVZ) support _______ platforms to run other platform-based applications through virtualization.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 676,
+    "question": "The __________ offers middleware to convert Windows system calls to Solaris system calls. ",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 677,
+    "question": "__________  is really a system call emulator that enables Linux applications written for x86 hosts to run on UNIX systems.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 678,
+    "question": "_________ offers library support for virtualizing x86 processors to run Windows applications on UNIX hosts.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 679,
+    "question": "____________ offers a compiler support system to develop Windows applications using Visual Studio to run on some UNIX hosts.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 680,
+    "question": "__________ virtualization provide support for general-purpose GPUs to run data-intensive applications under a special guest OS.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 681,
+    "question": "The _____________ supports hardware-level virtualization on bare metal devices like CPU, memory, disk and network interfaces.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 682,
+    "question": "The hypervisor software sits directly between the physical hardware and its OS.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 683,
+    "question": "Xen is an open source hypervisor program developed by _____________ University.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 684,
+    "question": "________ is a hardware-assisted para-virtualization tool, which improves performance and supports unmodified guest OSes.",
+    "answer": 2,
+    "testid": 18
+  },
+  {
+    "qid": 685,
+    "question": "A single CPU core can have multiple instances in virtualization.",
+    "answer": 1,
+    "testid": 18
+  },
+  {
+    "qid": 686,
+    "question": "Components are the main building block for React applications.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 687,
+    "question": "An expression is a fragment of JavaScript that is evaluated when a component’s render method is called and provides the means to display data to the user.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 688,
+    "question": "The term _________ is short for properties, and it reflects the way React creates the HTML content that is displayed in the browser.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 689,
+    "question": "The ______ keyword refers to the current object and is used to access its properties and methods.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 690,
+    "question": "When the ________ method is invoked, the expression is evaluated, and its result is included in the content presented to the user.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 691,
+    "question": "The dynamic nature of a React application is based on changes to _________ data, which React responds to by invoking the component’s render method again.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 692,
+    "question": "The this keyword is required whenever you use the properties and methods defined by a component.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 693,
+    "question": "Functions defined using the ___________ syntax don’t use the return keyword or require curly braces around the function body.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 694,
+    "question": "React invokes a component’s ____________ method when there is a change and compares the result with the HTML that is displayed in the browser so that only the differences are applied.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 695,
+    "question": "The data that is received by a child component through its props is read-only.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 696,
+    "question": "A child component can access and modify its props with the setState method.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 697,
+    "question": "A child component can have its state data, which is what a component uses to handle its content.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 698,
+    "question": "The component in the listing implements the _________________ method, which is invoked early in the component’s life and provides a good opportunity to perform tasks such as loading data.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 699,
+    "question": "componentDidMount method triggers whenever the component state changes.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 700,
+    "question": "React is a flexible and powerful open-source _____________ for developing client-side applications.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 701,
+    "question": "In ______________, an initial HTML document is sent to the browser, but user interactions lead to HTTP requests for small fragments of HTML or data inserted into the existing set of elements being displayed to the user.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 702,
+    "question": "In Single-page applications (SPAs), the initial HTML document can reload or replaced.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 703,
+    "question": "We can create React Project without using create-react-app CLI tool.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 704,
+    "question": "In JSX, expressions are denoted by_____________, and the result is inserted into the content generated by a component.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 705,
+    "question": "__________ consists of a comprehensive set of properties that can be used to configure every aspect of an HTML element’s appearance and a set of selectors that allow those properties to be applied.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 706,
+    "question": "____________ property is used in JSX to assign CSS class to an HTML element.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 707,
+    "question": "JavaScript supports _____________, which allow data values to be specified inline, Template strings begin and end with backticks, and data values are denoted by curly braces preceded by a dollar sign.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 708,
+    "question": "The ___________ operator is used to expand an array so that its contents can be used as function arguments.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 709,
+    "question": "The spread operator is used to expand arrays as well as objects also.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 710,
+    "question": "The __________ Operator is used to collect / combine multiple values in to an array.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 711,
+    "question": "A child component can also execute the parent component method.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 712,
+    "question": "A _____________ component has its own data that influences the content the component renders.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 713,
+    "question": "A ___________ component will always render the same HTML elements given the same set of prop values, regardless of how often the function is invoked.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 714,
+    "question": "We can use state Object in stateless components.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 715,
+    "question": "setState method is also useful for updating nested state properties.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 716,
+    "question": "The _____________ hook is used to create state data for stateless components.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 717,
+    "question": "By ______________, means the state is moved to the first common ancestor component and distributed back down to the components that require it using props.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 718,
+    "question": "____________ method returns a new array containing the items for which the test function returns true.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 719,
+    "question": "____________ method returns the first item in the array for which the test function returns true.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 720,
+    "question": "_____________ method returns true if the array contains the specified value.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 721,
+    "question": "____________ method returns true if calling the test function for each item in the array returns true at least once.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 722,
+    "question": "The _____________ hook is used to register a function that will be invoked when the component is mounted, updated, and unmounted.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 723,
+    "question": "_____________ method is called after React has completed the reconciliation process following an update.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 724,
+    "question": "______________________ provide an alternative to specialized components and are useful when components require common code but may not render related content.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 725,
+    "question": "A Higher-order component (HOCs) is a function that accepts a component and returns a new component that wraps around it to provide additional features.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 726,
+    "question": "In redux, __________ moves the application’s state outside of the React component hierarchy.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 727,
+    "question": "Using a data store in redux means that the data doesn’t have to be lifted up to the top-level component",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 728,
+    "question": "React is responsible for the contents of each form element, using a state data property to store its value and an event handler to respond to changes. This is known as “Controlled Form”.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 729,
+    "question": "It is necessary to use _____________ event on every element (control) in Controlled Form technique to update state of each control.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 730,
+    "question": "The ________________ package contains the main Redux data store features.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 731,
+    "question": "The _______________ package contains the integration features for using Redux with React.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 732,
+    "question": "in Redux, an __________ describes an operation that will change the data in the store. Redux doesn’t allow data to be modified directly, it is required to specify changes.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 733,
+    "question": "______________ are plain JavaScript objects that have a type parameter, which specifies the action type. This ensures that actions can be identified and processed correctly.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 734,
+    "question": "A ________________ is a function that receives an action and processes the change it represents in the data store. An action specifies which operation should be applied to the data store.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 735,
+    "question": "In Reducer, an action has the action type, which specifies the operation and the _____________, which provides the data that the operation requires.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 736,
+    "question": "Actions are applied to the data store by a JavaScript function called a ___________.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 737,
+    "question": "The React-Redux package includes a React container component that provides access to a data store, called _______________.It is applied at the top of the component hierarchy so that the data store is available throughout the application.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 738,
+    "question": "The _____________ function creates a higher-order component (HOC) that passes on props connected to the data store merged with the props that are provided by the parent component.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 739,
+    "question": "The ____________________ function is used to returns an object that maps prop names for the connected component to data in the store.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 740,
+    "question": "The ____________________ is used to wrap each action creator function in a dispatch method, which is responsible for sending the action returned by the action creator to the reducer.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 741,
+    "question": "The ______________ component is used to implement an application’s routing scheme, which it does by waiting until the browser navigates to a specific URL and displaying a component when it does.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 742,
+    "question": "The ______________ components have been rendered to produce anchor (elements whose tag is a) elements in react-route package.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 743,
+    "question": "In Route component, ____________ prop is used to specify the URL or URLs that the component should wait for.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 744,
+    "question": "In Route component, ____________ prop is used to specify a single component that will be displayed when the path prop matches the browser’s current URL.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 745,
+    "question": "In Route Component, render prop is used to specify a function that returns the content that will be displayed when the path prop matches the browser’s current URL.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 746,
+    "question": "MongoDB requires that each document have a unique identifier which is called __________.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 747,
+    "question": "In MongoDB, Collections are somewhat analogous to records, in RDBMS.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 748,
+    "question": "Perhaps the easiest way to think of a database in MongoDB is as a collection of ______________.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 749,
+    "question": "MongoDB store data in the form of BSON, stands for Binary Serialized Object Notation.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 750,
+    "question": "The _________________ function is used to retrieve all document from collection.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 751,
+    "question": "db.media.find().sort({ Title: -1 }) will display all documents from collection in ascending order by Title.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 752,
+    "question": "The __________ function to specify the maximum number of results returned.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 753,
+    "question": "db.students.find().limit(1) and db.students.findOne() will produced identical results.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 754,
+    "question": "In MongoDB, _____________ function is used to update a particular value in a document.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 755,
+    "question": "In MongoDB, _____________ function is used to remove a particular value (field) in a document.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 756,
+    "question": "In MongoDB, _____________ function is used to append a value in array type object in a document.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 757,
+    "question": "In MongoDB, _________________ function has the ability to perform a selection of operations by creating a pipeline of operations that will be executed in symmetrical order on all of the data in your collection.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 758,
+    "question": "In MongoDB, aggregate function executes in order first on the data and then each subsequent operation will be on the results of the previous operation.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 759,
+    "question": "The ___________ command does what its name suggests; it groups documents together so you can create an aggregate of the results.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 760,
+    "question": "{$group: {_id: \"$marks”}}, In $group command _id field is not necessary to mention.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 761,
+    "question": "In MongoDB, the ___________ operator is best used at the start of the pipeline to limit the number of documents that are initially put into the pipeline to aggregate.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 762,
+    "question": "In MongoDB, the ______________ operator adds a new array field in each document whose elements are the matching from the “joined” collection.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 763,
+    "question": "The _______________ takes an array and splits each element into a new document (in memory and not added to your collection) for each array element.",
+    "answer": 1,
+    "testid": 19
+  },
+  {
+    "qid": 764,
+    "question": "________________operator is used to limit the fields or to rename fields returned as part of a document. It’s the perfect way to cut down on any excess fields returned by your aggregations.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 765,
+    "question": "We can have Many To Many relationship in MongoDB.",
+    "answer": 2,
+    "testid": 19
+  },
+  {
+    "qid": 766,
+    "question": "NoSQL stands for “___________,” no matter what the acronym expands to.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 767,
+    "question": "We can have One to Many relationships in MongoDB.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 768,
+    "question": "MongoDB is a __________-oriented database.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 769,
+    "question": "The unit of storage in MongoDB (comparable to a record in relational model) is a document.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 770,
+    "question": "In MongoDB, all documents in a collection need not have the same set of fields.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 771,
+    "question": "A middleware is a function that takes in an HTTP request and response object, plus the next middleware function in the chain.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 772,
+    "question": "MongoDB’s language is __________.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 773,
+    "question": "React is not a full-fledged MVC framework.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 774,
+    "question": "_________ library is used for routing in which a URL is parsed, and based on its components, a piece of code is associated with the URL.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 775,
+    "question": "In React we, programmatically generate HTML using JavaScript.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 776,
+    "question": "_______ is a special HTML-like language which gets transformed into JavaScript code that generates an element in React’s virtual DOM.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 777,
+    "question": "In Express, the ________ method of the application takes in a port number and starts the server, which then waits eternally for requests.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 778,
+    "question": "In Express, ________ method should be passed as a parameter in middleware to execute the middleware chain.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 779,
+    "question": "express._______ middleware responds to a request by trying to match the request URL with a file under a directory specified by the parameter to the generator function.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 780,
+    "question": "The middleware is mounted on the application using the application’s _____ method.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 781,
+    "question": "_______ is a JavaScript keyword specific to Node.js, and it is used to import other modules.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 782,
+    "question": "ECMAScript is the specification of JavaScript.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 783,
+    "question": "Conversion from one specification of JavaScript to another is called __________.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 784,
+    "question": "The _______ braces allow you to insert JavaScript expressions inside JSX, and these will be replaced by the value of the expression.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 785,
+    "question": "React classes are created by extending React. __________.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 786,
+    "question": "The _________ method is something that that the React framework calls when it needs to display the component.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 787,
+    "question": "$(document)._______ function executes when the DOM is loaded and ready to be used.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 788,
+    "question": "_______ are flexible and useful for passing in any kind of data in child components.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 789,
+    "question": "Components cannot be passed as props.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 790,
+    "question": "The ________ essentially holds the model (something that can change), changes in its value cause to re-render the component’s view.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 791,
+    "question": "React treats the component as a simple state machine.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 792,
+    "question": "__________ method is used to change the state in the class components",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 793,
+    "question": "HTTP __________ method is used to fetch data from the supplied API.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 794,
+    "question": "HTTP __________ method is used to create an object, and the object is supplied in the request body.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 795,
+    "question": "HTTP __________ method is used to replaces the object with the object supplied in the body.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 796,
+    "question": "HTTP __________ method is used to modifies some attributes of the object, specification in the body.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 797,
+    "question": "In REST API, ___________ is used as the preferred encoding for the data, both in request and response bodies.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 798,
+    "question": "Express _________, essentially takes a client request, matches it against any routes that are present, and executes the handler function that is associated with that route. The handler function is expected to generate the appropriate response.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 799,
+    "question": "A route specification consists of an HTTP method (GET, POST, etc.).",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 800,
+    "question": "app.get(“/”, (req, res)=>{}), the _________ object represents the HTTP response that an Express app sends when it gets an HTTP request.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 801,
+    "question": "app.get(“/”, (req, res)=>{}), the ____ object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 802,
+    "question": "app._______ method mounts the specified middleware function or functions at the specified path.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 803,
+    "question": "A callback function can be use as a parameter to a function.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 804,
+    "question": "res.________ is used to quickly end the response without any data.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 805,
+    "question": "Express frameworks only support jade view engine to render a view.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 806,
+    "question": "res. _________ sends a JSON response (with the correct content-type) that is the parameter converted to a JSON string.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 807,
+    "question": "req._________ holds an object with keys as the query string parameters and values as the query string values.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 808,
+    "question": "req._______ contains the body of the request, valid for POST, PUT, and PATCH requests.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 809,
+    "question": "By ______________, means the state is moved to the first common ancestor component and distributed back down to the components that require it using props.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 810,
+    "question": "The _____________ hook is used to create state data for functional components.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 811,
+    "question": "____________ method returns a new array containing the items for which the test function returns true.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 812,
+    "question": "____________ method returns the first item in the array for which the test function returns true.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 813,
+    "question": "_____________ method returns true if the array contains the specified value.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 814,
+    "question": "____________ method returns true if calling the test function for each item in the array returns true at least once.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 815,
+    "question": "The _____________ hook is used to register a function that will be invoked when the component is mounted, updated, and unmounted.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 816,
+    "question": "_____________ method is called after React has completed the reconciliation process following an update.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 817,
+    "question": "______________________ provide an alternative to specialized components and are useful when components require common code but may not render related content.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 818,
+    "question": "A Higher-order component (HOCs) is a function that accepts a component and returns a new component that wraps around it to provide additional features.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 819,
+    "question": "In redux, __________ moves the application’s state outside of the React component hierarchy.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 820,
+    "question": "in Redux, an __________ describes an operation that will change the data in the store. Redux doesn’t allow data to be modified directly, it is required to specify changes.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 821,
+    "question": "A ________________ is a function that receives an action and processes the change it represents in the data store. An action specifies which operation should be applied to the data store.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 822,
+    "question": "In Reducer, an action has the action type, which specifies the operation and the _____________, which provides the data that the operation requires.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 823,
+    "question": "Actions are applied to the data store by a JavaScript function called a ___________.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 824,
+    "question": "The React-Redux package includes a React container component that provides access to a data store, called _______________. It is applied at the top of the component hierarchy so that the data store is available throughout the application.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 825,
+    "question": "The _____________ function creates a higher-order component (HOC) that passes on props connected to the data store merged with the props that are provided by the parent component.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 826,
+    "question": "MongoDB requires that each document have a unique identifier which is called __________.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 827,
+    "question": "In MongoDB, Collections are somewhat analogous to records, in RDBMS.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 828,
+    "question": "Perhaps the easiest way to think of a database in MongoDB is as a collection of ______________.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 829,
+    "question": "MongoDB store data in the form of BSON, stands for Binary Serialized Object Notation.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 830,
+    "question": "The _________________ function is used to retrieve all document from collection.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 831,
+    "question": "db.media.find().sort({ Title: -1 }) will display all documents from collection in ascending order by Title.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 832,
+    "question": "The __________ function to specify the maximum number of results returned.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 833,
+    "question": "db.students.find().limit(1) and db.students.findOne() will produced identical results.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 834,
+    "question": "In MongoDB, _____________ function is used to update a particular value in a document.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 835,
+    "question": "In MongoDB, _____________ function is used to remove a particular value (field) in a document.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 836,
+    "question": "In MongoDB, _____________ function is used to append a value in array type object in a document.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 837,
+    "question": "In MongoDB, _________________ function has the ability to perform a selection of operations by creating a pipeline of operations that will be executed in symmetrical order on all of the data in your collection.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 838,
+    "question": "In MongoDB, aggregate function executes in order first on the data and then each subsequent operation will be on the results of the previous operation.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 839,
+    "question": "The ___________ command does what its name suggests; it groups documents together so you can create an aggregate of the results.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 840,
+    "question": "{$group: {_id: \"$marks”}}, In $group command _id field is not necessary to mention.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 841,
+    "question": "In MongoDB, the ___________ operator is best used at the start of the pipeline to limit the number of documents that are initially put into the pipeline to aggregate.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 842,
+    "question": "In MongoDB, the ______________ operator adds a new array field in each document whose elements are the matching from the “joined” collection.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 843,
+    "question": "The _______________ takes an array and splits each element into a new document (in memory and not added to your collection) for each array element.",
+    "answer": 1,
+    "testid": 20
+  },
+  {
+    "qid": 844,
+    "question": "________________operator is used to limit the fields or to rename fields returned as part of a document. It’s the perfect way to cut down on any excess fields returned by your aggregations.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 845,
+    "question": "We can have Many to Many relationships in MongoDB.",
+    "answer": 2,
+    "testid": 20
+  },
+  {
+    "qid": 846,
+    "question": "NodeJS is single threaded.",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 847,
+    "question": "Most of the functions in NodeJS are synchronous. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 848,
+    "question": "Middlewares are used for executing any programmable logic between the transition of request and response complete cycle. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 849,
+    "question": "Which of the following is a valid HTTP Method?",
+    "answer": 4,
+    "testid": 21
+  },
+  {
+    "qid": 850,
+    "question": "Which command is used for installing any npm package? ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 851,
+    "question": "NodeJS can run on Windows only.",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 852,
+    "question": "Session is a server-side variable where the user's state related information can be saved. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 853,
+    "question": "Cookies can’t be used to maintain the state of the application. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 854,
+    "question": "ReactJS component files can be made with both .js and .jsx extension. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 855,
+    "question": "Callback functions are mandatory with asynchronous methods in NodeJS. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 856,
+    "question": "Which of the following code is correct to export a module.",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 857,
+    "question": "layout is used as a shared html/css/js feature and usage on all the view files when shared from it. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 858,
+    "question": "Which of the following is correct to define our view engine in the express application? ",
+    "answer": 4,
+    "testid": 21
+  },
+  {
+    "qid": 859,
+    "question": "We can import data in MongoDB by importing JSON files only. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 860,
+    "question": "Imported data in MongoDB is committed by default into the collections. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 861,
+    "question": "We can define custom commands in the scripts section of the package.json file. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 862,
+    "question": "By using the following command, custom commands in the scripts section of the package.json file can be executed.",
+    "answer": 3,
+    "testid": 21
+  },
+  {
+    "qid": 863,
+    "question": "express-session package in NodeJS attaches the session object in the request object of the routes. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 864,
+    "question": "Which of the following best defines modules in Node JS? ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 865,
+    "question": "await keyword is used before asynchronous request/functions for executing event loop. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 866,
+    "question": "It’s not a good practice to keep your database connection string inside your code.",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 867,
+    "question": "express.static function is used to serve dynamic files which are being created on the fly while execution of Node JS code. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 868,
+    "question": "path.join is used to shorten the path for the developer so they don’t have to remember the complete path every time.",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 869,
+    "question": "We can only send HTML and JSON responses from the express application route’s response. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 870,
+    "question": "A virtual path can be mapped in a NodeJS application for serving static files so it can help developers remember a short path rather than complete physical path. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 871,
+    "question": "Which of the following statements is incorrect for NodeJS?",
+    "answer": 3,
+    "testid": 21
+  },
+  {
+    "qid": 872,
+    "question": "status property of the response object defines whether the call to the endpoint resulted in success or failure.",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 873,
+    "question": "JWT is encrypted by a private key which is available to all the authenticated users.",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 874,
+    "question": "The secret-key property of the express’s session class defines whether the session will be encrypted or not. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 875,
+    "question": "A route without a response being sent will give a compile time error during compilation of the program. ",
+    "answer": 3,
+    "testid": 21
+  },
+  {
+    "qid": 876,
+    "question": "await keyword is used to wait for the response of the function before moving to execution of the rest of the code. ",
+    "answer": 1,
+    "testid": 21
+  },
+  { "qid": 877, "question": "ORM stands for ", "answer": 4, "testid": 21 },
+  {
+    "qid": 878,
+    "question": "MongoDB is a schema-less database structure",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 879,
+    "question": "Which of the following is used for less than and equal to operators in MongoDB?",
+    "answer": 3,
+    "testid": 21
+  },
+  {
+    "qid": 880,
+    "question": "By using ORM every operation on the model class maps exactly to the database collection in MongoDB. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 881,
+    "question": "save() function of the model class should be called with the await keyword. ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 882,
+    "question": "How can we get the query string value provided by the user inside a route in NodeJS?",
+    "answer": 1,
+    "testid": 21
+  },
+  { "qid": 883, "question": "props is an object.", "answer": 2, "testid": 21 },
+  {
+    "qid": 884,
+    "question": "Extensions in VS Code helps increase productivity of the developer. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 885,
+    "question": "By which of the following code we will get the parameter value from below route URL.",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 886,
+    "question": "MongoDB generates an automated primary key property by the name. ",
+    "answer": 3,
+    "testid": 21
+  },
+  {
+    "qid": 887,
+    "question": "Which of the following is true about ReactJS?",
+    "answer": 4,
+    "testid": 21
+  },
+  {
+    "qid": 888,
+    "question": "Functional components can be declared without state. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 889,
+    "question": "There are two types of components in ReactJS namely:",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 890,
+    "question": "Which of the following is true about the life cycle hook componentDidMount?",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 891,
+    "question": "render( ) function is also available in functional components?",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 892,
+    "question": "axios library’s post method is used to fetch data from the server?",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 893,
+    "question": "Which property of the props object can display child elements passed in the component? ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 894,
+    "question": "$(document).ready(function() { }); is called when DOM has been loaded properly?",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 895,
+    "question": "Component can call another component inside it as a child component?",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 896,
+    "question": "jQuery’s hide( ) method is used to make visible html elements hidden on screen?",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 897,
+    "question": "jQuery’s show( ) method can only be called on specific html elements, not all of them?",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 898,
+    "question": "ReactJS uses JavaScript code behind the scenes?",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 899,
+    "question": "Hooks are life cycle events and provide functionality to developers for coding on certain phases of the application. ",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 900,
+    "question": "useState hook is used for creating state in class-based components? ",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 901,
+    "question": "Is NodeJS a suitable choice for complex computational calculations?",
+    "answer": 1,
+    "testid": 21
+  },
+  {
+    "qid": 902,
+    "question": "JWT is used for authentication of the application.",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 903,
+    "question": "Sensitive information like passwords and credit card numbers aren’t suitable items to be stored inside JWT data.",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 904,
+    "question": "state is an object which keeps properties for displaying the components UI.",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 905,
+    "question": "ReactJS is a MVC Framework",
+    "answer": 2,
+    "testid": 21
+  },
+  {
+    "qid": 906,
+    "question": "NodeJS is a runtime environment which executes code instructions in parallel due to single threaded architecture.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 907,
+    "question": "Most of the functions in NodeJS are by default asynchronous.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 908,
+    "question": "For what purpose Express Framework class’s use( ) function is used for?",
+    "answer": 3,
+    "testid": 22
+  },
+  {
+    "qid": 909,
+    "question": "Which of the following is not a valid HTTP Method?",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 910,
+    "question": "Which of the following statements is incorrect for installing the npm package express.",
+    "answer": 4,
+    "testid": 22
+  },
+  {
+    "qid": 911,
+    "question": "NodeJS cannot run on Mac OS.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 912,
+    "question": "Session is a server-side variable which is used to maintain state of the HTTP application.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 913,
+    "question": "Cookie is also used to maintain the state of the application via a text file created on the server.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 914,
+    "question": "Every client machine needs to be on the same network to send requests to a server running a web application.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 915,
+    "question": "Callback functions are mandatory with synchronous methods in NodeJS.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 916,
+    "question": "Which of the following is not achieved using the MVC Design pattern?",
+    "answer": 4,
+    "testid": 22
+  },
+  {
+    "qid": 917,
+    "question": "Which of the following code is correct to export a module.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 918,
+    "question": "Which of the following is correct to define our view engine in the express application?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 919,
+    "question": "We can import data in MongoDB by importing JSON and CSV files.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 920,
+    "question": "Imported data in MongoDB is not committed by default into the collections.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 921,
+    "question": "We can define custom commands in the scripts section of the package.json file.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 922,
+    "question": "By using the following command, custom commands in the scripts section of the package.json file can be executed.",
+    "answer": 3,
+    "testid": 22
+  },
+  {
+    "qid": 923,
+    "question": "express-session package in NodeJS attaches the session object in the request object of the routes.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 924,
+    "question": "We can send any arbitrary model object by using response.render function’s second parameter, when sending data to the view.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 925,
+    "question": "await keyword is used before asynchronous request/functions to wait for the response and then execute further processing.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 926,
+    "question": "It’s a good practice to keep your connection string inside your code files with database username and password to not forget it while working after some time on the code.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 927,
+    "question": "express.static function is used to serve static files like excel, csv, JavaScript, and CSS.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 928,
+    "question": "path.join is used to shorten the path for the developer, so they don’t have to remember the complete path every time.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 929,
+    "question": "We can only send HTML and JSON responses from a node application route endpoint.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 930,
+    "question": "A virtual path can be mapped in a NodeJS application for serving static files so it can help developers remember a short path rather than complete physical path.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 931,
+    "question": "Which of the following statements is incorrect for NodeJS?",
+    "answer": 3,
+    "testid": 22
+  },
+  {
+    "qid": 932,
+    "question": "A credit card number should be kept inside a session variable for later use in the application.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 933,
+    "question": "Which of the following is correct for sessions?",
+    "answer": 3,
+    "testid": 22
+  },
+  {
+    "qid": 934,
+    "question": "A model class represents a database entity where modeling constraints can be applied.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 935,
+    "question": "A route without a response being sent will give a compile time error during compilation of the program.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 936,
+    "question": "await keyword is used to wait for the response of the function before moving to execution of the rest of the code.",
+    "answer": 1,
+    "testid": 22
+  },
+  { "qid": 937, "question": "ORM stands for", "answer": 4, "testid": 22 },
+  {
+    "qid": 938,
+    "question": "Which one is the best suitable benefit of using ORM?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 939,
+    "question": "It is mandatory to create a database and its entities before implementation with MongoDB using a code first approach.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 940,
+    "question": "Due to ORM by only just creating a new object of the model class we will have a new record created in the collection?",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 941,
+    "question": "save() function of the model class applies all the changes made to the entity to the MongoDB collection.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 942,
+    "question": "How can we get the query string value provided by the user inside a route in NodeJS?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 943,
+    "question": "Before using query string in our route, we first have to install the query string package in later versions of NodeJS.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 944,
+    "question": "Extensions in VS Code helps increase productivity of the developer.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 945,
+    "question": "By which of the following code we will get the parameter value from below route URL. router.get(“/api/comments/:id”, async(req, res) => { });",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 946,
+    "question": "We can access the session variable directly in our vash files.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 947,
+    "question": "Which of the following is true about ReactJS?",
+    "answer": 4,
+    "testid": 22
+  },
+  {
+    "qid": 948,
+    "question": "Functional components cannot be declared without state.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 949,
+    "question": "There are two types of components in ReactJS namely:",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 950,
+    "question": "JSX stands for JavaScript XML?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 951,
+    "question": "render( ) function is responsible for?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 952,
+    "question": "axios library is used for?",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 953,
+    "question": "Which property of the props object can display child elements passed in the component?",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 954,
+    "question": "$(document).ready(function () {}); is called when DOM has been loaded properly?",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 955,
+    "question": "Functional components are easier in syntax and handling complexity as compared to Class based components?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 956,
+    "question": "jQuery’s show () method is used to make hidden html elements visible on screen?",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 957,
+    "question": "jQuery’s hide () method can’t be called on html elements already hidden?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 958,
+    "question": "What react jQuery can also do in terms of possibility?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 959,
+    "question": "Hooks are life cycle events and provide functionality to developers for coding on certain phases of the application.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 960,
+    "question": "NoSQL database like Mongo doesn’t support relationships.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 961,
+    "question": "Is NodeJS a suitable choice for complex computational calculations?",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 962,
+    "question": "JWT is used as authorization of the application.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 963,
+    "question": "Sensitive information like passwords and credit card numbers are suitable items to be stored inside JWT data.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 964,
+    "question": "props is an object which acts as a parameter to a functional component.",
+    "answer": 2,
+    "testid": 22
+  },
+  {
+    "qid": 965,
+    "question": "layout is a concept used to provide an identical user interface in our application for all other pages.",
+    "answer": 1,
+    "testid": 22
+  },
+  {
+    "qid": 966,
+    "question": "NodeJS is a runtime environment which executes code instructions in parallel due to single threaded architecture.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 967,
+    "question": "Most of the functions in NodeJS are by default asynchronous.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 968,
+    "question": "For what purpose Express Framework class’s use( ) function is used for?",
+    "answer": 3,
+    "testid": 23
+  },
+  {
+    "qid": 969,
+    "question": "Which of the following is not a valid HTTP Method?",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 970,
+    "question": "Which of the following statements is incorrect for installing the npm package express.",
+    "answer": 4,
+    "testid": 23
+  },
+  {
+    "qid": 971,
+    "question": "NodeJS cannot run on Mac OS.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 972,
+    "question": "We can call PATCH API in JQuery also",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 973,
+    "question": "Cookie is also used to maintain the state of the application via a text file created on the server.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 974,
+    "question": "Every client machine needs to be on the same network to send requests to a server running a web application.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 975,
+    "question": "Callback functions are mandatory with synchronous methods in NodeJS.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 976,
+    "question": "Which of the following is not achieved using the MVC Design pattern?",
+    "answer": 4,
+    "testid": 23
+  },
+  {
+    "qid": 977,
+    "question": "Which of the following code is correct to export a module.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 978,
+    "question": "Which of the following is correct to define our view engine in the express application?",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 979,
+    "question": "We can import data in MongoDB by importing JSON and CSV files.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 980,
+    "question": "Imported data in MongoDB is not committed by default into the collections.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 981,
+    "question": "We can define custom commands in the scripts section of the package.json file.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 982,
+    "question": "By using the following command, custom commands in the scripts section of the package.json file can be executed.",
+    "answer": 3,
+    "testid": 23
+  },
+  {
+    "qid": 983,
+    "question": "NodeJS is not only for Web Development",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 984,
+    "question": "We can send any arbitrary model object by using response.render function’s second parameter, when sending data to the view.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 985,
+    "question": "await keyword is used before asynchronous request/functions to wait for the response and then execute further processing.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 986,
+    "question": "It’s a good practice to keep your connection string inside your code files with database username and password to not forget it while working after some time on the code.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 987,
+    "question": "express.static function is used to serve static files like excel, csv, JavaScript, and CSS.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 988,
+    "question": "path.join is used to shorten the path for the developer, so they don’t have to remember the complete path every time.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 989,
+    "question": "We can only send HTML and JSON responses from a node application route endpoint.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 990,
+    "question": "A virtual path can be mapped in a NodeJS application for serving static files so it can help developers remember a short path rather than complete physical path.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 991,
+    "question": "Which of the following statements is incorrect for NodeJS?",
+    "answer": 3,
+    "testid": 23
+  },
+  {
+    "qid": 992,
+    "question": "We can only execute asynchronous code in NodeJS.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 993,
+    "question": "A model class represents a database entity where modeling constraints can be applied.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 994,
+    "question": "A route without a response being sent will give a compile time error during compilation of the program.",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 995,
+    "question": "await keyword is used to wait for the response of the function before moving to execution of the rest of the code.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 996,
+    "question": "How can we get the query string value provided by the user inside a route in NodeJS?",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 997,
+    "question": "Extensions in VS Code helps increase productivity of the developer.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 998,
+    "question": "By which of the following code we will get the parameter value from below route URL. router.get(“/api/comments/:id”, async(req, res) => { });",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 999,
+    "question": "Which of the following is true about ReactJS?",
+    "answer": 4,
+    "testid": 23
+  },
+  {
+    "qid": 1000,
+    "question": "Functional components cannot be declared without state.",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 1001,
+    "question": "There are two types of components in ReactJS namely:",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 1002,
+    "question": "JSX stands for JavaScript XML?",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 1003,
+    "question": "render( ) function is responsible for?",
+    "answer": 1,
+    "testid": 23
+  },
+  {
+    "qid": 1004,
+    "question": "axios library is used for?",
+    "answer": 2,
+    "testid": 23
+  },
+  {
+    "qid": 1005,
+    "question": "Functional components are easier in syntax and handling complexity as compared to Class based components?",
+    "answer": 1,
+    "testid": 23
+  }
+]
