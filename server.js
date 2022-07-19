@@ -12,14 +12,23 @@ const io = new Server(server, {
 	},
 });
 
+const { getStudentByRegno } = require("./controller");
+
 // CORS
 app.use(cors());
 
 app.use(express.static(path.join(__dirname, "build")));
 app.get("/", (req, res) => res.sendFile(path.join(__dirname, "build", "index.html")));
 
+app.use("/api/", require("./api/"));
+
 io.on("connection", (socket) => {
-	console.log("a user connected");
+	console.log(`a user connected with socket id : ${socket.id}`);
+
+	socket.on("db", async (args) => {
+		io.to(socket.id).emit("feedback", await getStudentByRegno(args));
+	});
+
 	socket.on("message", (message) => {
 		console.log(`message from ${socket.id} : ${message}`);
 		time = new Date(message).toLocaleTimeString();
