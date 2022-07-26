@@ -11,6 +11,11 @@ router.get("/students/:regno", async (req, res) => {
 	res.status(200).json(student[0]);
 });
 
+router.get("/tests/:code", async (req, res) => {
+	const test = await db.Test.findOne({ code: { $regex: `^${req.params.code.toLowerCase()}$`, $options: "i" } });
+	res.status(200).json(test);
+});
+
 module.exports = router;
 
 // const db = require("../models");

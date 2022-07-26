@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useSocket } from "./useSocket";
 
-const Test = (props) => {
+const Student = (props) => {
 	const [socket] = useSocket();
-	const [color, setColor] = useState("cyan");
+	const [color, setColor] = useState("blue");
 	const [styles, setStyles] = useState({});
 	//const socket = io("ws://localhost:9013");
 
@@ -13,7 +13,7 @@ const Test = (props) => {
 		});
 		socket.on("feedback", (data) => {
 			console.log(JSON.stringify(data));
-			props.setTest(data);
+			props.setStudent(data);
 			//console.log(JSON.stringify(data), typeof data === "object");
 			if (typeof data !== "object") {
 				setColor("rose");
@@ -33,7 +33,7 @@ const Test = (props) => {
 
 	const handleKeyPress = (e) => {
 		if (e.key === "Enter") {
-			socket.emit("db", { code: e.target.value, type: "test" });
+			socket.emit("db", { regno: e.target.value, type: "student" });
 		}
 	};
 	// style="animation:  infinite;animation-duration: 3;"
@@ -45,7 +45,7 @@ const Test = (props) => {
 					className={`focus:ring-${color}-500 focus:border-${color}-500 block shadow-sm sm:text-sm border-gray-300 rounded-md w-32 text-center`}
 					id="username"
 					type="password"
-					placeholder="TestId"
+					placeholder="Reg. No"
 					onKeyDownCapture={handleKeyPress}
 				/>
 			</div>
@@ -53,4 +53,4 @@ const Test = (props) => {
 	);
 };
 
-export default Test;
+export default Student;
