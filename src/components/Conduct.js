@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSocket } from "./useSocket";
 
-const Student = (props) => {
+const Conduct = (props) => {
 	const [socket] = useSocket();
 	const [wrong, setWrong] = useState(false);
 	const [styles, setStyles] = useState({});
@@ -13,8 +13,8 @@ const Student = (props) => {
 		});
 		socket.on("feedback", (data) => {
 			console.log(JSON.stringify(data));
-			if (data !== "") {
-				props.setStudent(data);
+			if (data !== null) {
+				props.setTest(data);
 			} else {
 				setWrong(true);
 				setStyles({ animation: "horizontal-shaking 0.25s linear" });
@@ -23,10 +23,6 @@ const Student = (props) => {
 					setStyles({});
 				}, 2000);
 			}
-		});
-		socket.on("start", (data) => {
-			console.log(data);
-			props.setBank(data);
 		});
 		// eslint-disable-next-line
 	}, []);
@@ -37,47 +33,26 @@ const Student = (props) => {
 
 	const handleKeyPress = (e) => {
 		if (e.key === "Enter" && e.target.value !== "") {
-			socket.emit("db", { regno: e.target.value, type: "student" });
+			socket.emit("db", { code: e.target.value, type: "test" });
 		}
-	};
-
-	const handleStart = () => {
-		socket.emit("db", { testid: props.testid, type: "start" });
 	};
 	// style="animation:  infinite;animation-duration: 3;"
 	return (
 		<div>
 			<div className="flex items-center justify-center h-screen flex-col">
-				{props.status === 2 && (
-					<>
-						<div style={{ fontSize: "26pt", fontWeight: "bolder" }}>{props.student.studentname}</div>
-						<br />
-					</>
-				)}
 				<input
 					style={styles}
 					className={`${
-						wrong ? "focus:ring-red-500 focus:border-red-500" : "focus:ring-indigo-500 focus:border-indigo-500"
+						wrong ? "focus:ring-red-500 focus:border-red-500" : "focus:ring-green-500 focus:border-green-500"
 					} block shadow-sm sm:text-sm border-gray-300 rounded-md w-32 text-center`}
 					id="username"
-					type="text"
-					placeholder="Reg. No"
+					type="password"
+					placeholder="TestId"
 					onKeyDownCapture={handleKeyPress}
 				/>
-				{props.status === 2 && (
-					<>
-						<br />
-						<button
-							className="bg-transparent hover:bg-green-500 text-green-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded"
-							onClick={handleStart}
-						>
-							Start
-						</button>
-					</>
-				)}
 			</div>
 		</div>
 	);
 };
 
-export default Student;
+export default Conduct;

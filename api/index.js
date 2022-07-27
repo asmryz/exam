@@ -11,6 +11,16 @@ router.get("/students/:regno", async (req, res) => {
 	res.status(200).json(student[0]);
 });
 
+router.get("/questions/:testid", async (req, res) => {
+	console.log(`params >> ${req.params.testid}`);
+	const questions = await db.Question.aggregate([
+		{ $match: { testid: Number(req.params.testid) } },
+		{ $lookup: { from: "options", foreignField: "qid", localField: "qid", as: "options" } },
+		{ $project: { _id: 0, question: 1, answer: 1, options: { option: 1, seq: 1 } } },
+	]).sort({ qid: 1 });
+	res.status(200).json(questions);
+});
+
 router.get("/tests/:code", async (req, res) => {
 	const test = await db.Test.findOne({ code: { $regex: `^${req.params.code.toLowerCase()}$`, $options: "i" } });
 	res.status(200).json(test);

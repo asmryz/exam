@@ -12,7 +12,7 @@ const io = new Server(server, {
 	},
 });
 
-const { getStudentByRegno, getTestByCode } = require("./controller");
+const { getStudentByRegno, getTestByCode, getQuestionsByTestId } = require("./controller");
 
 // CORS
 app.use(cors());
@@ -33,6 +33,9 @@ io.on("connection", (socket) => {
 				break;
 			case "student":
 				io.to(socket.id).emit("feedback", await getStudentByRegno(args));
+				break;
+			case "start":
+				io.to(socket.id).emit("start", await getQuestionsByTestId(args));
 				break;
 
 			default:
