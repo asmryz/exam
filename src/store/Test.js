@@ -21,65 +21,67 @@ import { createSlice } from "@reduxjs/toolkit";
 // });
 
 const testSlice = createSlice({
-  name: "test",
-  initialState: {
-    test: {},
-    student: {},
-    status: 0,
-  },
-  reducers: {
-    setTest: (state, action) => {
-      const test = action.payload;
-      state.test = { ...test };
-      state.status++;
-    },
-    setStudent: (state, action) => {
-      const student = action.payload;
-      state.student = { ...student };
-      state.status++;
-    },
-  },
-  extraReducers: {
-    // [fetchStudents.pending]: (state, _) => {
-    // 	state.loading = true;
-    // 	state.error = null;
-    // },
-    // [fetchStudents.fulfilled]: (state, action) => {
-    // 	console.log(action);
-    // 	state.students = action.payload;
-    // 	state.loading = false;
-    // },
-    // [fetchStudents.rejected]: (state, action) => {
-    // 	state.loading = false;
-    // 	state.error = action.payload;
-    // },
-    // [getStudentByRegNo.pending]: (state, _) => {
-    // 	state.error = null;
-    // },
-    // [getStudentByRegNo.fulfilled]: (state, action) => {
-    // 	console.log(action);
-    // 	state.student = action.payload;
-    // },
-    // [getStudentByRegNo.rejected]: (state, action) => {
-    // 	console.log(action);
-    // 	state.error = action.payload;
-    // },
-    // [updateStudent.pending]: (state, _) => {
-    // 	state.error = null;
-    // },
-    // [updateStudent.fulfilled]: (state, action) => {
-    // 	const std = action.payload;
-    // 	console.log(std);
-    // },
-    // [updateStudent.rejected]: (state, action) => {
-    // 	console.log(action);
-    // 	state.error = action.payload;
-    // },
-  },
+	name: "test",
+	initialState: {
+		test: {},
+		student: {},
+		status: 0,
+	},
+	reducers: {
+		setTest: (state, action) => {
+			const test = action.payload;
+			state.test = { ...test };
+		},
+		setStudent: (state, action) => {
+			const student = action.payload;
+			state.student = { ...student };
+		},
+		setStatus: (state, action) => {
+			const count = action.payload;
+			state.status = state.status + count;
+		},
+	},
+	extraReducers: {
+		// [fetchStudents.pending]: (state, _) => {
+		// 	state.loading = true;
+		// 	state.error = null;
+		// },
+		// [fetchStudents.fulfilled]: (state, action) => {
+		// 	console.log(action);
+		// 	state.students = action.payload;
+		// 	state.loading = false;
+		// },
+		// [fetchStudents.rejected]: (state, action) => {
+		// 	state.loading = false;
+		// 	state.error = action.payload;
+		// },
+		// [getStudentByRegNo.pending]: (state, _) => {
+		// 	state.error = null;
+		// },
+		// [getStudentByRegNo.fulfilled]: (state, action) => {
+		// 	console.log(action);
+		// 	state.student = action.payload;
+		// },
+		// [getStudentByRegNo.rejected]: (state, action) => {
+		// 	console.log(action);
+		// 	state.error = action.payload;
+		// },
+		// [updateStudent.pending]: (state, _) => {
+		// 	state.error = null;
+		// },
+		// [updateStudent.fulfilled]: (state, action) => {
+		// 	const std = action.payload;
+		// 	console.log(std);
+		// },
+		// [updateStudent.rejected]: (state, action) => {
+		// 	console.log(action);
+		// 	state.error = action.payload;
+		// },
+	},
 });
 
 console.log(JSON.stringify(testSlice, null, 2));
 
 //export { fetchStudents, getStudentByRegNo, updateStudent };
-export const { setStudent, setTest } = testSlice.actions;
+export const { setStudent, setTest, setStatus } = testSlice.actions;
 export default testSlice.reducer;
