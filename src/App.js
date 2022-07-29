@@ -1,7 +1,7 @@
 import React from "react";
 //import { useEffect } from "react";
 import "./App.css";
-//import Exam from "./components/Exam";
+import Exam from "./components/Exam";
 import Example from "./components/Example";
 import store from "./store";
 import { Provider } from "react-redux";
@@ -11,7 +11,7 @@ import { persistStore } from "redux-persist";
 let persistor = persistStore(store);
 
 function App() {
-  return <Example />;
+  return <Exam />;
 }
 
 // eslint-disable-next-line

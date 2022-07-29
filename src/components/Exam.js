@@ -8,7 +8,7 @@ import Test from "./Test";
 
 const Exam = () => {
   const dispatch = useDispatch();
-  const { test, status, student, shuffle, bank } = useSelector(
+  const { test, status, student, shuffle, bank, index } = useSelector(
     (state) => state.test
   );
 
@@ -41,10 +41,10 @@ const Exam = () => {
           testid={test.testid}
         />
       )}
-      {status === 2 && <Test />}
-      <pre style={{ textAlign: "left" }}>
+      {status === 2 && <Test bank={bank} shuffle={shuffle} index={index} />}
+      {/* <pre style={{ textAlign: "left" }}>
         {JSON.stringify({ status, test, student, bank, shuffle }, null, 2)}
-      </pre>
+      </pre> */}
     </div>
   );
 };
