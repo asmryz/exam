@@ -1,20 +1,11 @@
-
-const mongoose = require('mongoose');
-const { Schema, model } = mongoose
+const mongoose = require("mongoose");
+const { Schema, model } = mongoose;
 
 const testSchema = new Schema({
-    	testid: Number,
+	testid: Number,
 	course: String,
+	crscode: String,
 	total: Number,
-	code: String,
-	testdate: String,
-	duration: Number,
-	faculty: String,
-	semyr: String,
-	head: String,
-	sec: String,
-	unitmark: Number,
 });
 
-module.exports = model('Test', testSchema);
-
+module.exports = model("Test", testSchema);

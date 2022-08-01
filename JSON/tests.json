@@ -1,301 +1,140 @@
 [
-  {
-    "testid": 1,
-    "course": "Web Technology II",
-    "total": 40,
-    "code": "DEB35",
-    "testdate": "2019-05-31T19:00:00.000Z",
-    "duration": 60,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2019",
-    "head": "Test 1",
-    "sec": "BS VI ",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 2,
-    "course": "Web Technology II",
-    "total": 80,
-    "code": "E32RN",
-    "testdate": "2019-06-11T19:00:00.000Z",
-    "duration": 90,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2019",
-    "head": "Final",
-    "sec": "BS VI E/F",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 3,
-    "course": "OOP",
-    "total": 20,
-    "code": "1AJAZ",
-    "testdate": "2019-06-08T19:00:00.000Z",
-    "duration": 2,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2019",
-    "head": "Test",
-    "sec": "BS II",
-    "unitmark": 1
-  },
-  {
-    "testid": 4,
-    "course": "Web Technology I",
-    "total": 40,
-    "code": "BTTN8",
-    "testdate": "2019-12-08T19:00:00.000Z",
-    "duration": 30,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2019",
-    "head": "Test",
-    "sec": "BS V ",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 5,
-    "course": "Web Technology I",
-    "total": 80,
-    "code": "J24P",
-    "testdate": "2020-01-02T19:00:00.000Z",
-    "duration": 90,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2019",
-    "head": "Final",
-    "sec": "BS V",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 6,
-    "course": "Web Technology II",
-    "total": 40,
-    "code": "T7F88",
-    "testdate": "2020-06-14T19:00:00.000Z",
-    "duration": 30,
-    "faculty": "Dr. Adeel Ansari",
-    "semyr": "Spring 2020",
-    "head": "Final",
-    "sec": "BS V",
-    "unitmark": 1
-  },
-  {
-    "testid": 7,
-    "course": "Web Technology II",
-    "total": 40,
-    "code": "TM33D",
-    "testdate": "2020-06-21T19:00:00.000Z",
-    "duration": 25,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2020",
-    "head": "Test",
-    "sec": "BS V C/D",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 8,
-    "course": "Web Technology I",
-    "total": 80,
-    "code": "GD78X",
-    "testdate": "2021-06-18T19:00:00.000Z",
-    "duration": 60,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2021",
-    "head": "FInal",
-    "sec": "BSCS VI B Elective",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 9,
-    "course": "Web Technology II",
-    "total": 20,
-    "code": "HW45K",
-    "testdate": "2020-07-08T19:00:00.000Z",
-    "duration": 10,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2020",
-    "head": "Test",
-    "sec": "BS V C/D",
-    "unitmark": 1
-  },
-  {
-    "testid": 10,
-    "course": "ITC",
-    "total": 40,
-    "code": "TJ48K",
-    "testdate": "2020-11-15T19:00:00.000Z",
-    "duration": 30,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2020",
-    "head": "Mid Term",
-    "sec": "BS 1 A/E",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 11,
-    "course": "ITC",
-    "total": 80,
-    "code": "RF32G",
-    "testdate": "2021-01-17T19:00:00.000Z",
-    "duration": 60,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2020",
-    "head": "FInal",
-    "sec": "BS 1 A/E",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 12,
-    "course": "Web Technology I",
-    "total": 40,
-    "code": "KJ76Y",
-    "testdate": "2021-06-10T19:00:00.000Z",
-    "duration": 60,
-    "faculty": "Dr. Adeel Ansari",
-    "semyr": "Spring 2021",
-    "head": "Final",
-    "sec": "BS VI A",
-    "unitmark": 1
-  },
-  {
-    "testid": 13,
-    "course": "Web Technology I",
-    "total": 40,
-    "code": "RT88F",
-    "testdate": "2021-06-25T19:00:00.000Z",
-    "duration": 25,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2021",
-    "head": "Test",
-    "sec": "BS VI B/C",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 14,
-    "course": "Parallel and Distributed Computing",
-    "total": 40,
-    "code": "FR5KJ",
-    "testdate": "2021-11-27T19:00:00.000Z",
-    "duration": 25,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2021",
-    "head": "Mid Term",
-    "sec": "BSCS VII A/B/C/D",
-    "unitmark": 1
-  },
-  {
-    "testid": 15,
-    "course": "Parallel and Distributed Computing",
-    "total": 40,
-    "code": "TD43K",
-    "testdate": "2021-12-19T19:00:00.000Z",
-    "duration": 25,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2021",
-    "head": "Test",
-    "sec": "BSCS VII A/B/C/D",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 16,
-    "course": "Data Structures and Algorithms",
-    "total": 15,
-    "code": "TM32D",
-    "testdate": "2021-12-23T19:00:00.000Z",
-    "duration": 15,
-    "faculty": "Maira Sami",
-    "semyr": "Fall 2021",
-    "head": "Quiz",
-    "sec": "BSCS III",
-    "unitmark": 1
-  },
-  {
-    "testid": 17,
-    "course": "Introduction to Computer",
-    "total": 10,
-    "code": "SD56F",
-    "testdate": "2022-01-09T19:00:00.000Z",
-    "duration": 10,
-    "faculty": "Sadia Aziz",
-    "semyr": "Fall 2021",
-    "head": "Quiz",
-    "sec": "BSCS I",
-    "unitmark": 1
-  },
-  {
-    "testid": 18,
-    "course": "Parallel and Distributed Computing",
-    "total": 20,
-    "code": "VB79X",
-    "testdate": "2022-02-08T19:00:00.000Z",
-    "duration": 10,
-    "faculty": "Asim Riaz",
-    "semyr": "Fall 2021",
-    "head": "Quiz",
-    "sec": "BSCS VII",
-    "unitmark": 1
-  },
-  {
-    "testid": 19,
-    "course": "Web Technology I",
-    "total": 80,
-    "code": "XJ49K",
-    "testdate": "2022-06-05T19:00:00.000Z",
-    "duration": 60,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2022",
-    "head": "FInal",
-    "sec": "BSCS VI A Elective",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 20,
-    "course": "Web Technology I",
-    "total": 80,
-    "code": "JQ78G",
-    "testdate": "2022-06-06T19:00:00.000Z",
-    "duration": 60,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2022",
-    "head": "FInal",
-    "sec": "BSCS VI C Elective",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 21,
-    "course": "Web Technology I",
-    "total": 60,
-    "code": "TG45G",
-    "testdate": "2022-06-09T19:00:00.000Z",
-    "duration": 90,
-    "faculty": "Fahim Nasir",
-    "semyr": "Spring 2022",
-    "head": "FInal",
-    "sec": "BSCS VI E Elective",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 22,
-    "course": "Web Technology I",
-    "total": 60,
-    "code": "DF98K",
-    "testdate": "2022-06-10T19:00:00.000Z",
-    "duration": 90,
-    "faculty": "Fahim Nasir",
-    "semyr": "Spring 2022",
-    "head": "FInal",
-    "sec": "BSCS VI F Elective",
-    "unitmark": 0.5
-  },
-  {
-    "testid": 23,
-    "course": "Web Technology I",
-    "total": 40,
-    "code": "FT78Y",
-    "testdate": "2022-06-20T19:00:00.000Z",
-    "duration": 18,
-    "faculty": "Asim Riaz",
-    "semyr": "Spring 2022",
-    "head": "Test",
-    "sec": "BSCS ELectives",
-    "unitmark": 1
-  }
+	{
+		"testid" : 1,
+		"course" : "Web Technology II",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 2,
+		"course" : "Web Technology II",
+		"coursecode" : "CSCXXXX",
+		"total" : 80
+	},
+	{
+		"testid" : 3,
+		"course" : "OOP",
+		"coursecode" : "CSCXXXX",
+		"total" : 20
+	},
+	{
+		"testid" : 4,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 5,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 80
+	},
+	{
+		"testid" : 6,
+		"course" : "Web Technology II",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 7,
+		"course" : "Web Technology II",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 8,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 80
+	},
+	{
+		"testid" : 9,
+		"course" : "Web Technology II",
+		"coursecode" : "CSCXXXX",
+		"total" : 20
+	},
+	{
+		"testid" : 10,
+		"course" : "ITC",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 11,
+		"course" : "ITC",
+		"coursecode" : "CSCXXXX",
+		"total" : 80
+	},
+	{
+		"testid" : 12,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 13,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 14,
+		"course" : "Parallel and Distributed Computing",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 15,
+		"course" : "Parallel and Distributed Computing",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	},
+	{
+		"testid" : 16,
+		"course" : "Data Structures and Algorithms",
+		"coursecode" : "CSCXXXX",
+		"total" : 15
+	},
+	{
+		"testid" : 17,
+		"course" : "Introduction to Computer",
+		"coursecode" : "CSCXXXX",
+		"total" : 10
+	},
+	{
+		"testid" : 18,
+		"course" : "Parallel and Distributed Computing",
+		"coursecode" : "CSCXXXX",
+		"total" : 20
+	},
+	{
+		"testid" : 19,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 80
+	},
+	{
+		"testid" : 20,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 80
+	},
+	{
+		"testid" : 21,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 60
+	},
+	{
+		"testid" : 22,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 60
+	},
+	{
+		"testid" : 23,
+		"course" : "Web Technology I",
+		"coursecode" : "CSCXXXX",
+		"total" : 40
+	}
 ]

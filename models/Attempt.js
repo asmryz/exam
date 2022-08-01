@@ -7,6 +7,7 @@ const attemptSchema = new Schema({
 	testid: Number,
 	marks: Number,
 	shuffle: String,
+	code: String,
 	att_time: {
 		type: String,
 		timestamps: true,
